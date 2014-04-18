@@ -1,0 +1,35 @@
+= RubyCLR Changelog
+
+== Drop 4
+
+* Added support for inlining C#, VB and JScript
+* Added support for implementing arbitrary CLR interfaces (an extension of the
+  prototype implementation of data binding)
+* Moved the project to RubyForge!
+
+== Drop 3
+
+* Added support for Reflection against Ruby shadow class objects: list_methods,
+  list_properties, list_events are now available.
+* Added dynamic help support via Class#help. Invoking help on a type will
+  display XML documentation comments about that type. Invoking help with an
+  event, property or field name will display 
+* Added support for creating and using generic types
+* Added support for (non-generic) interfaces
+* Added support for databinding against Ruby arrays
+* Automatically map .NET cased method names to Ruby case (e.g. WordCount ->
+  word_count)
+* Added auto_dispose and auto_close helper methods
+* Massively refactored C++ code to clean up duplication, reduce memory footprint
+  and improve performance
+* Massively reorganized Ruby code to better partition functionality by files and
+  to remove circular dependencies across layers.
+* Fixed Rakefile so that debug builds now compile correctly. Need to add support
+  for release mode builds.
+* Added wrappers for winforms and wpf scenarios (require 'winforms' and require
+  'wpf')
+* Added math.rb WPF / Avalon sample.
+* Expanded unit test suite out to 149 tests and 285 assertions.
+* Added Komodo project files to distribution (*.kpf) files. I've switched to
+  Komodo full-time from emacs for all Ruby development and am loving the
+  experience.

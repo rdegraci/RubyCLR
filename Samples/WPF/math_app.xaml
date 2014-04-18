@@ -1,0 +1,15 @@
+﻿<Window
+  xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+  xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <StackPanel Orientation="Horizontal">
+    <StackPanel Width="500">
+      <TextBox Name="input" Height="600" FontFamily="Consolas" FontSize="12">
+        text integral('a', 'b', 'f(x) dx = F(b) - F(a)')
+      </TextBox>
+      <Button IsDefault="True" Name="button">Add Equation</Button>
+    </StackPanel>
+    <FlowDocumentPageViewer>
+      <FlowDocument FontFamily="Palatino Linotype" FontSize="16" Name='document'/>
+    </FlowDocumentPageViewer>
+  </StackPanel>
+</Window>

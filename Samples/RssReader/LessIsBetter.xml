@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss2full.xsl" type="text/xsl" media="screen"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Less is better</title>
+    <link>http://www.iunknown.com/</link>
+    <language>en-us</language>
+    <ttl>40</ttl>
+    <description>Less is better</description>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/LessIsBetter" type="application/rss+xml" />
+    <feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site, subject to copyright and fair use.</feedburner:browserFriendly>
+    <item>
+      <title>Method interception</title>
+      <description>&lt;p&gt;I&amp;#8217;m trying to think of some simple scenarios where Ruby&amp;#8217;s dynamic nature could be put to good use in writing .NET applications. Here&amp;#8217;s one off the top of my head:&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;
+class TextBox
+  import Text=
+  alias  old_set_Text Text=
+
+  def Text=(value)
+    puts "Changed value from #{self.Text} to #{value}" 
+    old_set_Text(value)
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+
+	&lt;p&gt;The &lt;code&gt;TextBox&lt;/code&gt; class that you see is a Windows Forms &lt;code&gt;TextBox&lt;/code&gt;. Here&amp;#8217;s a case where I can intercept all calls to change the &lt;code&gt;Text&lt;/code&gt; property of &lt;em&gt;any&lt;/em&gt; &lt;code&gt;TextBox&lt;/code&gt; control in the application (I can also do this per-control as well).&lt;/p&gt;
+
+
+	&lt;p&gt;Of course, it only works if you call from Ruby &amp;#8211; this can&amp;#8217;t be used, for example, to monitor how C# code changes the &lt;code&gt;Text&lt;/code&gt; property of &lt;code&gt;TextBox&lt;/code&gt; controls.&lt;/p&gt;
+
+
+	&lt;p&gt;The &lt;code&gt;import&lt;/code&gt; directive / method that you see is some hypothetical syntax to force my bridge to generate the method shim for &lt;code&gt;Text=&lt;/code&gt; (this is done automatically the first time you try to use the property in normal usage scenarios).&lt;/p&gt;
+
+
+	&lt;p&gt;Another idea is to monitor &lt;code&gt;SqlConnection&lt;/code&gt; opens and closes to make sure that they are balanced. I did this example many years ago when I wrote my &lt;span class="caps"&gt;AOP&lt;/span&gt; weaver for the &lt;span class="caps"&gt;CLR&lt;/span&gt;.&lt;/p&gt;
+
+
+	&lt;p&gt;If folks could leave some comments about how they could see using method interception via Ruby, I&amp;#8217;d be very interested in seeing if I can code it up using my bridge.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=D0PEesjp"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=D0PEesjp" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=oCl5Ztdm"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=oCl5Ztdm" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=91"/&gt;</description>
+      <pubDate>Thu, 16 Feb 2006 11:52:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/16/method-interception</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=91</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/70</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/16/method-interception</feedburner:origLink>
+    </item>
+    <item>
+      <title>Windows Forms and RubyCLR: Happy Together</title>
+      <description>&lt;p&gt;I was going to write something about how I got nested types working last night, and some cool Ruby features that I discovered to make it work (remind me later &amp;#8211; it is a very cool story), but there&amp;#8217;s something much more exciting to report:&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;strong&gt;I&amp;#8217;ve built my first trivial Windows Forms 2.0 Application using RubyCLR!&lt;/strong&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;img src="http://static.flickr.com/32/100461042_bc3667dced_o.png" alt="" /&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;Yes, it is the &amp;#8220;Hello, World&amp;#8221; Windows Forms data binding application, but it represents a major step forward in the maturity of RubyCLR. Lots of features had to be added to the product to make this work, and that&amp;#8217;s what&amp;#8217;s been driving most of my development effort recently; I&amp;#8217;m worrying less about the edge cases for now, and focusing on implementing the most important core features to make it usable.&lt;/p&gt;
+
+
+	&lt;p&gt;Now, this application is not intended to represent anything about how one would actually write Windows Forms applications using Ruby &amp;#8211; this application is &lt;strong&gt;very&lt;/strong&gt; un-Ruby-esque. I can imagine lots of ways to improve how it&amp;#8217;s implemented, and I&amp;#8217;m going to spend a few days building an app to see what kinds of idioms I can discover along the way (provided the bridge is stable enough to actually build that app).&lt;/p&gt;
+
+
+	&lt;p&gt;Here&amp;#8217;s the code:&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;
+require 'rubyclr'
+
+RubyClr::reference 'System.Data'
+RubyClr::reference 'System.Drawing'
+RubyClr::reference 'System.Windows.Forms'
+
+include System
+include System::Data
+include System::Data::SqlClient
+include System::Drawing
+include System::Windows::Forms
+
+class MainForm
+  attr_reader :form, :grid
+
+  CS  = 'server=.\SQLEXPRESS;database=adventureworks;integrated security=sspi'
+  SQL = 'select * from humanresources.employee'
+
+  def create_form(grid)
+    form               = Form.new
+    form.AutoScaleMode = AutoScaleMode::Font
+    form.ClientSize    = Size.new(292, 266)
+    form.Controls.Add(grid)
+    form.Load do |sender, args|
+      adapter = SqlDataAdapter.new(SQL, CS)
+      ds      = DataSet.new
+      adapter.Fill(ds, 'Employee')
+      grid.DataSource = ds
+      grid.DataMember = 'Employee'
+    end
+    form
+  end
+
+  def create_gridview
+    grid = DataGridView.new
+    grid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode::AutoSize
+    grid.Dock     = DockStyle::Fill
+    grid.Location = Point.new(0, 0)
+    grid.Size     = Size.new(292, 266)
+    grid.TabIndex = 0
+    grid
+  end
+
+  def initialize
+    @grid = create_gridview
+    @form = create_form(@grid)
+  end
+end
+
+Application.EnableVisualStyles
+Application.SetCompatibleTextRenderingDefault false
+
+main = MainForm.new
+Application.Run(main.form)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=nF0Y4xRe"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=nF0Y4xRe" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=lbjjMbXj"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=lbjjMbXj" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=90"/&gt;</description>
+      <pubDate>Thu, 16 Feb 2006 10:58:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/16/windows-forms-and-rubyclr-happy-together</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=90</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/69</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/16/windows-forms-and-rubyclr-happy-together</feedburner:origLink>
+    </item>
+    <item>
+      <title>Enumerations in RubyCLR</title>
+      <description>&lt;p&gt;I added enumerations support to RubyCLR today. It was a bit tricky since Ruby has no native support for enumerations (or user-defined value types), so I have to fake out enumerations using Ruby objects. For most scenarios, it feels very much like an enumeration would in C#.&lt;/p&gt;
+
+
+	&lt;p&gt;Here&amp;#8217;s a simple Windows Forms MessageBox sample that uses enumerations:&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;
+require 'rubyclr'
+
+RubyClr::reference 'System.Windows.Forms'
+include System::Windows::Forms
+
+result = MessageBox.Show('Yes or no?', 'Answer this!', 
+                         MessageBoxButtons::YesNo)
+puts result.to_s
+&lt;/code&gt;&lt;/pre&gt;
+
+	&lt;p&gt;The &lt;code&gt;to_s&lt;/code&gt; method outputs the string value of the enum, in this case Yes or No based on which button the user clicks. I also support adding, subtracting and bitwise or operations against enumerations.&lt;/p&gt;
+
+
+	&lt;p&gt;My overload resolution algorithm needs to account for implicit up-conversions to the enumeration&amp;#8217;s underlying type. That will be accounted for when I rewrite that algorithm beginning tomorrow.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=39pu46lL"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=39pu46lL" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=mZxqDRhb"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=mZxqDRhb" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=89"/&gt;</description>
+      <pubDate>Tue, 14 Feb 2006 23:35:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/14/enumerations-in-rubyclr</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=89</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/68</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/14/enumerations-in-rubyclr</feedburner:origLink>
+    </item>
+    <item>
+      <title>Links for 2006-02-13 [del.icio.us]</title>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=88</link>
+      <pubDate>Tue, 14 Feb 2006 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">urn:item:7396524</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.mozilla.org/projects/venkman/"&gt;Venkman JavaScript Debugger project page&lt;/a&gt;&lt;br/&gt;
+Javascript debugger for Firefox. Lets see if this is better than alert() :)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://dojotoolkit.org/"&gt;Dojo - A cross-platform Javascript runtime&lt;/a&gt;&lt;br/&gt;
+Abstracts away browser diffs particularly in event model. Cool thing to look at is how they hack the back / forward buttons in IE and Mozilla&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=88"/&gt;</description>
+      <feedburner:origLink>http://del.icio.us/drjflam#2006-02-13</feedburner:origLink>
+    </item>
+    <item>
+      <title>Method Overload Resolution</title>
+      <description>&lt;p&gt;The current method overload algorithm in the RubyCLR bridge is a placeholder. It only works for very simple cases (which, granted easily account for 80+% of the cases). It doesn&amp;#8217;t handle corner cases very well, nor does it handle parameter arrays (although there is some code there to handle those cases, it&amp;#8217;s just not called right now). The algorithm is also fairly poor both in terms of space and in time. So there&amp;#8217;s quite a lot of room for improvement there.&lt;/p&gt;
+
+
+	&lt;p&gt;In this next iteration, I&amp;#8217;m planning on tackling the generics overloading problem, which requires me to think very carefully about the algorithm.&lt;/p&gt;
+
+
+	&lt;p&gt;Before tackling generics, I decided to spend some time writing test cases for non-generic corner cases, as well as cleaning up a bunch of missing bits in the code. Rather than reinventing the wheel, I decided to take a look at the test cases for &lt;a href="http://www.gotdotnet.com/workspaces/workspace.aspx?id=ad7acff7-ab1e-4bcb-99c0-57ac5a3a9742"&gt;IronPython&lt;/a&gt;, since I figure that they would have a similar set of problems to deal with.&lt;/p&gt;
+
+
+	&lt;p&gt;I found a &lt;em&gt;very&lt;/em&gt; clever set of test cases in &lt;code&gt;BindingTest.py&lt;/code&gt;. As I ported them to Ruby, I discovered a number of missing features in my existing codebase (such as marshaling Booleans as parameters &amp;#8211; I was missing an entry in a hashtable). I&amp;#8217;ve spent part of the day fixing those bugs and writing a new set of unit tests in preparation for a rewrite of the method overload algorithm.&lt;/p&gt;
+
+
+	&lt;p&gt;One thing that I discovered while looking at the Python unit tests is that I&amp;#8217;m going to have to tackle enumerations sooner rather than later. Once I have support for enumerations in RubyCLR, I&amp;#8217;ll ship a new drop, likely by the end of the week.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=jJEIGWrr"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=jJEIGWrr" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=LWpbInxU"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=LWpbInxU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=87"/&gt;</description>
+      <pubDate>Mon, 13 Feb 2006 16:38:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/13/method-overload-resolution</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=87</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/67</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/13/method-overload-resolution</feedburner:origLink>
+    </item>
+    <item>
+      <title>Links for 2006-02-10 [del.icio.us]</title>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=86</link>
+      <pubDate>Sat, 11 Feb 2006 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">urn:item:7381093</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.werkema.com/software/spacemonger.html"&gt;SpaceMonger&lt;/a&gt;&lt;br/&gt;
+A free nice way to visualize disk space. I paid for some app years ago that did the same thing.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=86"/&gt;</description>
+      <feedburner:origLink>http://del.icio.us/drjflam#2006-02-10</feedburner:origLink>
+    </item>
+    <item>
+      <title>CLR Value Types in Ruby</title>
+      <description>&lt;p&gt;I thought I&amp;#8217;d expand a bit on a problem that I solved today. Consider this bit of C# code:&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;
+Point p1 = new Point(2, 3);
+Point p2 = p1;
+p2.X += 1;
+Assert.Equals(p1.X + 1, p2.X);
+&lt;/code&gt;&lt;/pre&gt;
+
+	&lt;p&gt;This should run without throwing an assertion, right? That&amp;#8217;s because the semantics of value types in the &lt;span class="caps"&gt;CLR&lt;/span&gt; dictate that they must be &lt;em&gt;copied&lt;/em&gt; upon assignment.&lt;/p&gt;
+
+
+	&lt;p&gt;However, consider this Ruby code that uses my bridge:&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;
+p1 = Point.new(2, 3)
+p2 = p1
+p2.X += 1
+assert_equal p1.X, p2.X
+&lt;/code&gt;&lt;/pre&gt;
+
+	&lt;p&gt;This code also runs without throwing an assertion. What you&amp;#8217;re seeing is Ruby treating all objects as reference types for assignment purposes. Ruby doesn&amp;#8217;t know anything about .NET value types, so its behavior is consistent with its type system.&lt;/p&gt;
+
+
+	&lt;p&gt;However, if you use the Ruby &lt;code&gt;clone&lt;/code&gt; method, you will see the same behavior as the C# code:&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;
+p1 = Point.new(2, 3)
+p2 = p1.clone
+p2.X += 1
+assert_equal p1.X + 1, p2.X
+&lt;/code&gt;&lt;/pre&gt;
+
+	&lt;p&gt;I had to do a bit of hacking to implement &lt;code&gt;clone&lt;/code&gt; semantics correctly for &lt;code&gt;T_DATA&lt;/code&gt; Ruby C object types. There&amp;#8217;s still some work to be done to implement &lt;code&gt;clone&lt;/code&gt; correctly for &lt;span class="caps"&gt;CLR&lt;/span&gt; reference types once I turn my attention to object identity in the near future.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=uSxkWtmr"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=uSxkWtmr" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=mvkSCfbU"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=mvkSCfbU" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=85"/&gt;</description>
+      <pubDate>Fri, 10 Feb 2006 22:56:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/10/clr-value-types-in-ruby</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=85</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/66</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/10/clr-value-types-in-ruby</feedburner:origLink>
+    </item>
+    <item>
+      <title>Links for 2006-02-09 [del.icio.us]</title>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=84</link>
+      <pubDate>Fri, 10 Feb 2006 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">urn:item:7375707</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.blurb.com/index.html"&gt;Blurb&lt;/a&gt;&lt;br/&gt;
+A really nicely done application for generating printed books from arbitray sources (like blog content - think travel blog or baby blog).&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.iotum.com/about.php?PHPSESSID=f888d4c4c4b485830bf1aa87924ab870"&gt;iotum - a relevance-based call router&lt;/a&gt;&lt;br/&gt;
+I met Alex Saunders, ex-MSFT, at a local startup event in Toronto. I saw that he just won a Demo '06 &amp;quot;Demo God&amp;quot; award. Excellent!&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.vizrea.com/About.aspx"&gt;Vizrea&lt;/a&gt;&lt;br/&gt;
+What Mike Toutonghi, an ex-MSFT distinguished engineer is up to these days. YAPSS (Yet Another Photo Sharing Service)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blogs.msdn.com/cbrumme/archive/2003/05/10/51425.aspx"&gt;Chris Brumme on Value Types&lt;/a&gt;&lt;br/&gt;
+This is an extremely lucid post on the semantics of value types in the CLR. It explains the subtle semantics of invoking methods on value types. Required reading for compiler implementors.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=84"/&gt;</description>
+      <feedburner:origLink>http://del.icio.us/drjflam#2006-02-09</feedburner:origLink>
+    </item>
+    <item>
+      <title>User-defined value type marshaling</title>
+      <description>&lt;p&gt;I got value type marshaling working tonight (but not creation just yet &amp;#8211; but that&amp;#8217;s fairly straightforward). It wasn&amp;#8217;t quite as hard as I thought since I previously thought that value types could be extended. I&amp;#8217;ll write more about this issue tomorrow.&lt;/p&gt;
+
+
+	&lt;p&gt;Here are the unit tests that now pass:&lt;/p&gt;
+
+
+&lt;pre&gt;&lt;code&gt;
+static Point GetPoint() {
+  return Point(3, 4);
+}
+
+...
+
+class ValueTypeTests &amp;lt; Test::Unit::TestCase
+  def test_get_point
+    p = System::MarshalerTests.GetPoint
+    assert_equal 3, p.X
+    assert_equal 4, p.Y
+    assert_equal 'System.Drawing.Point', p.class_name
+  end
+
+  def test_point_instance_method
+    p = System::MarshalerTests.GetPoint
+    p.Offset(1, 1)
+    assert_equal 4, p.X
+    assert_equal 5, p.Y
+  end
+end
+&lt;/code&gt;&lt;/pre&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=8DQO0QoP"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=8DQO0QoP" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=sDQcHzMb"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=sDQcHzMb" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=83"/&gt;</description>
+      <pubDate>Fri, 10 Feb 2006 00:29:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/10/user-defined-value-type-marshaling</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=83</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/65</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/10/user-defined-value-type-marshaling</feedburner:origLink>
+    </item>
+    <item>
+      <title>Pixel Quality vs. Quantity</title>
+      <description>&lt;p&gt;For the longest time, I really preferred having more pixels vs. having higher quality pixels. Just this week I decided to make the switch and bought a pair of &lt;a href="http://www.necdisplay.com/products/ProductDetail.cfm?Product=436&amp;#38;ClassificationFamily=2&amp;#38;Classification=1"&gt;NEC 70GX2&lt;/a&gt; panels:&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="http://www.necdisplay.com/products/ProductDetail.cfm?Product=436&amp;#38;ClassificationFamily=2&amp;#38;Classification=1"&gt;&lt;img src="http://www.necdisplay.com/images/C/F/70GX2_lt_2300px.jpg" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;to replace my Viewsonic VP201s:&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;a href="http://www.viewsonic.com/products/desktopdisplays/lcddisplays/proseries/vp201s/"&gt;&lt;img src="http://www.viewsonic.com/images/media/VP201s_us_eng_med.jpg" alt="" /&gt;&lt;/a&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;and Samsung 172T panels:&lt;/p&gt;
+
+
+	&lt;p&gt;&lt;img src="http://www.pcworld.com/reviews/graphics/110653-2107p090-2b.jpg" alt="" /&gt;&lt;/p&gt;
+
+
+	&lt;p&gt;The &lt;span class="caps"&gt;NEC 70GX2&lt;/span&gt; is a spectacular panel. It is so much brigher (400 nits vs. 250 nits) than my other two panels that they are totally usable in a backlit sunlit room. The Opticlear coating on the panel is fairly reflective, yet not distracting at all, even using the black backgrounds that I prefer.&lt;/p&gt;
+
+
+	&lt;p&gt;The pair of these panels cost about the same as just &lt;strong&gt;one&lt;/strong&gt; of the panels that they replace at the time that I bought them. So even though they are only 1280&amp;#215;1024, I find that they are very usable. They should do until 200 ppi versions of those panels arrive in a few years :)&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=HDlg7EX1"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=HDlg7EX1" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=esQh4bEr"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=esQh4bEr" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=82"/&gt;</description>
+      <pubDate>Thu, 09 Feb 2006 15:55:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/09/pixel-quality-vs-quantity</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=82</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/64</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/09/pixel-quality-vs-quantity</feedburner:origLink>
+    </item>
+    <item>
+      <title>How to report a bug (a'la Subversion)</title>
+      <description>&lt;p&gt;Here&amp;#8217;s an &lt;em&gt;excellent&lt;/em&gt; description on &lt;a href="http://subversion.tigris.org/bugs.html"&gt;how to report a bug&lt;/a&gt;. It will make you laugh, it will make you cry, it will even teach you how to report a &lt;a href="http://subversion.tigris.org/"&gt;Subversion&lt;/a&gt; bug.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=Q0UM7Gnv"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=Q0UM7Gnv" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=b9ZfNJUO"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=b9ZfNJUO" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=81"/&gt;</description>
+      <pubDate>Tue, 07 Feb 2006 15:38:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/07/how-to-report-a-bug-ala-subversion</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=81</link>
+      <category>Props</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/63</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/07/how-to-report-a-bug-ala-subversion</feedburner:origLink>
+    </item>
+    <item>
+      <title>Hardware changes</title>
+      <description>&lt;p&gt;I&amp;#8217;ve had it with &lt;span class="caps"&gt;HDD&lt;/span&gt; failures on workstations. I didn&amp;#8217;t suffer much in the way of data loss, it&amp;#8217;s just the freaking inconvenience of it that drives me crazy.&lt;/p&gt;
+
+
+	&lt;p&gt;I just finished building a new workstation that runs on an &lt;a href="http://www.techreport.com/reviews/2005q2/opteron-x75/index.x?pg=1"&gt;Opteron 175&lt;/a&gt; processor. I thought I&amp;#8217;d collect my observations on this process here for folks who may want to build something on this platform in the future.&lt;/p&gt;
+
+
+	&lt;p&gt;First off, I didn&amp;#8217;t want &lt;a href="http://en.wikipedia.org/wiki/Scalable_Link_Interface"&gt;SLI&lt;/a&gt;, so I didn&amp;#8217;t want to pay for it. I elected to purchase an nForce4 chipset &lt;a href="http://www.asus.com/products4.aspx?l1=3&amp;#38;l2=15&amp;#38;l3=171&amp;#38;model=455&amp;#38;modelmenu=1"&gt;ASUS &lt;span class="caps"&gt;A8N E&lt;/span&gt;&lt;/a&gt; motherboard instead of one of the nForce4 &lt;span class="caps"&gt;SLI&lt;/span&gt; chipset motherboards. That was a minor mistake. This motherboard cannot boot from an external &lt;span class="caps"&gt;USB&lt;/span&gt; drive (which is a pain), nor does it have any Firewire ports (long story short, my 3G iPod doesn&amp;#8217;t sync to &lt;span class="caps"&gt;USB 2 &lt;/span&gt;- only Firewire for some bizarre reason). I didn&amp;#8217;t figure this out of course until I had the entire computer assembled, and by that time I&amp;#8217;d be dammed if I was going to rip it apart to replace the motherboard! Bottom line: don&amp;#8217;t skimp on the mobo (or at least read and memorize the specs before you buy!)&lt;/p&gt;
+
+
+	&lt;p&gt;I&amp;#8217;m now running &lt;span class="caps"&gt;RAID 0&lt;/span&gt;+1 across 4&amp;#215;250GB 7200rpm disks. I hope that the chances of &lt;span class="caps"&gt;HDD&lt;/span&gt; failure causing downtime on that system are a thing of the past. My primary server runs a &lt;span class="caps"&gt;RAID5&lt;/span&gt; array with 4&amp;#215;160GB disks, so I&amp;#8217;ve always had redundancy there (but I haven&amp;#8217;t suffered a failure on those drives yet either). But I&amp;#8217;ll now have performance and redundancy with &lt;span class="caps"&gt;RAID 0&lt;/span&gt;+1 on the workstation.&lt;/p&gt;
+
+
+	&lt;p&gt;A warning for folks who are running nForce &lt;span class="caps"&gt;RAID&lt;/span&gt; and want to install Vista &amp;#8211; it won&amp;#8217;t work. Apparently the February &lt;span class="caps"&gt;CTP&lt;/span&gt; will fix this issue. I might drop Vista onto a vmware image just to see how it works &amp;#8211; it&amp;#8217;s been a while since I&amp;#8217;ve looked at that OS. I&amp;#8217;d love to see it run native though :)&lt;/p&gt;
+
+
+	&lt;p&gt;I&amp;#8217;m amazed by how responsive this system is &amp;#8211; it feels more responsive than the Pentium &lt;span class="caps"&gt;D820&lt;/span&gt; that it replaced. I was doing a lot of multitasking when I was rebuilding my image, and it just felt like there was always more cycles available.&lt;/p&gt;
+
+
+	&lt;p&gt;The Opteron 175 ran really cool during the things I was doing (SpamBayes training, installing &lt;span class="caps"&gt;VS 2005&lt;/span&gt;, lots of downloading simultaneously). The &lt;span class="caps"&gt;CPU&lt;/span&gt; utilization was consistently &gt; 80%, yet the &lt;span class="caps"&gt;CPU&lt;/span&gt; temperature monitor never went above 42C the entire time.&lt;/p&gt;
+
+
+	&lt;p&gt;It&amp;#8217;s quiet too: I&amp;#8217;m housing everything in a &lt;a href="http://www.antec.com/us/productDetails.php?ProdID=15139"&gt;Sonata II&lt;/a&gt; case, and even 4&amp;#215;7200 rpm disks under my feet don&amp;#8217;t seem to make much of a racket at all &amp;#8211; it&amp;#8217;s only a bit louder than the Shuttle &lt;span class="caps"&gt;SB31P&lt;/span&gt; that it&amp;#8217;s replacing.&lt;/p&gt;
+
+
+	&lt;p&gt;Bottom line: I&amp;#8217;m happy with how quickly things came together from my favorite hardware suppliers: &lt;span class="caps"&gt;ASUS &lt;/span&gt;+ Antec.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=wOIpUvsF"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=wOIpUvsF" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=rz6sF4ro"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=rz6sF4ro" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=80"/&gt;</description>
+      <pubDate>Tue, 07 Feb 2006 09:09:00 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/07/hardware-changes</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=80</link>
+      <category>Thoughts</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/62</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/07/hardware-changes</feedburner:origLink>
+    </item>
+    <item>
+      <title>Links for 2006-02-06 [del.icio.us]</title>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=79</link>
+      <pubDate>Tue, 07 Feb 2006 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">urn:item:7359298</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.windowsnetworking.com/kbase/WindowsTips/WindowsXP/RegistryTips/Customization/RemoveWindowsXPsystemtrayfromthetaskbar.html"&gt;Remove Windows XP system tray from the task bar&lt;/a&gt;&lt;br/&gt;
+Yet more toddler-proofing registry hacks&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=79"/&gt;</description>
+      <feedburner:origLink>http://del.icio.us/drjflam#2006-02-06</feedburner:origLink>
+    </item>
+    <item>
+      <title>Links for 2006-02-05 [del.icio.us]</title>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=78</link>
+      <pubDate>Mon, 06 Feb 2006 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">urn:item:7354073</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.winguides.com/registry/display.php/1034/"&gt;Remove &amp;quot;All Programs&amp;quot; Button from the Start Menu&lt;/a&gt;&lt;br/&gt;
+A handy tip for toddler-proofing your computer&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.winguides.com/registry/display.php/160/"&gt;Disable the Ability to Right Click on the Desktop&lt;/a&gt;&lt;br/&gt;
+Another handy toddler-proofing tip&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=78"/&gt;</description>
+      <feedburner:origLink>http://del.icio.us/drjflam#2006-02-05</feedburner:origLink>
+    </item>
+    <item>
+      <title>Matthew just read We Share Everything out loud today</title>
+      <description>&lt;p&gt;For posterity: Matthew just read to me &lt;a href="http://www.amazon.com/gp/product/0590896016/ref=nosim/102-2212109-8521749?camp=2025&amp;#38;dev-t=D26XECQVNV6NDQ&amp;#38;link%5Fcode=xm2&amp;#38;n=283155"&gt;We Share Everything&lt;/a&gt; out loud today &amp;#8211; the whole book, end to end. I&amp;#8217;m amazed: he&amp;#8217;s 28 months old.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=D1WSJSbn"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=D1WSJSbn" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/LessIsBetter?a=Vs56csqA"&gt;&lt;img src="http://feeds.feedburner.com/~f/LessIsBetter?i=Vs56csqA" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=77"/&gt;</description>
+      <pubDate>Sat, 04 Feb 2006 15:54:45 Eastern Standard Time</pubDate>
+      <guid isPermaLink="false">http://www.iunknown.com/articles/2006/02/04/matthew-just-read-we-share-everything-out-loud-today</guid>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=77</link>
+      <category>Life</category>
+      <trackback:ping>http://www.iunknown.com/articles/trackback/61</trackback:ping>
+      <feedburner:origLink>http://www.iunknown.com/articles/2006/02/04/matthew-just-read-we-share-everything-out-loud-today</feedburner:origLink>
+    </item>
+    <item>
+      <title>Links for 2006-02-02 [del.icio.us]</title>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=75</link>
+      <pubDate>Fri, 03 Feb 2006 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">urn:item:7338780</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.february-7.com/features/conan.htm"&gt;Conan O'Brien's Commencement Speech&lt;/a&gt;&lt;br/&gt;
+Conan O'Brien was a Harvard grad. And he talks about his need to fail in a remarkably funny yet inspirational commencement speech.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://presentationzen.blogs.com/presentationzen/2006/01/contrasts_in_pr.html"&gt;Contrasts in presentation style: Yoda vs. Darth Vader&lt;/a&gt;&lt;br/&gt;
+Darth Vader vs. Yoda presentation styles&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.cl.cam.ac.uk/Research/SRG/netos/xen/performance.html"&gt;Xen Performance&lt;/a&gt;&lt;br/&gt;
+Wow. It looks like Xen's da bomb for virtualization. Apparently Vanderpool will mean that guest OS's do not have to be modified to run at Ring 1 privilege.&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=75"/&gt;</description>
+      <feedburner:origLink>http://del.icio.us/drjflam#2006-02-02</feedburner:origLink>
+    </item>
+    <item>
+      <title>Links for 2006-01-31 [del.icio.us]</title>
+      <link>http://feeds.feedburner.com/LessIsBetter?m=73</link>
+      <pubDate>Wed, 01 Feb 2006 00:00:00 -0600</pubDate>
+      <guid isPermaLink="false">urn:item:7338433</guid>
+      <description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://neosmart.net/blog/dual-booting-windows-xp-on-a-macbook/"&gt;Windows XP on Mac? at Ramblings of a Computer Guru&lt;/a&gt;&lt;br/&gt;
+Looks like someone has gotten it working. I wonder if he gets the prize?&lt;/li&gt;
+&lt;/ul&gt;&lt;img src="http://feeds.feedburner.com/LessIsBetter?g=73"/&gt;</description>
+      <feedburner:origLink>http://del.icio.us/drjflam#2006-01-31</feedburner:origLink>
+    </item>
+  </channel>
+</rss>
+

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/xsl" href="http://blogs.msdn.com/rss.xsl" media="screen"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:wfw="http://wellformedweb.org/CommentAPI/"><channel><title>MSDN Blogs</title><link>http://blogs.msdn.com/default.aspx</link><description>The Blogs of MSDN</description><dc:language>en-US</dc:language><generator>CommunityServer 2.0 (Build: 60209.2598)</generator><item><title>Video plug for Atlas talk at Mix...</title><link>http://blogs.msdn.com/brada/archive/2006/02/20/535509.aspx</link><pubDate>Mon, 20 Feb 2006 16:27:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535509</guid><dc:creator>BradA</dc:creator><slash:comments>0</slash:comments><description>&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: #8f3b39; FONT-FAMILY: Arial; mso-themecolor: accent2; mso-themeshade: 191"&gt;&lt;A href="http://weblogs.asp.net/shankun"&gt;Shanku&lt;/A&gt;, &lt;/SPAN&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;A href="http://weblogs.asp.net/bleroy/"&gt;Bertrand Le Roy&lt;/A&gt; and I recently &lt;A href="http://channel9.msdn.com/Showpost.aspx?postid=163508"&gt;shot a spot about our Atlas\Ajax&lt;/A&gt; presence at &lt;A href="http://mix06.com/"&gt;Mix&lt;/A&gt;... I’d love to hear thoughts... what would you like to hear us cover?&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp;&lt;/SPAN&gt;Here is a list of the breakouts that are directly &lt;?xml:namespace prefix = st1 ns = "urn:schemas-microsoft-com:office:smarttags" /&gt;&lt;st1:City w:st="on"&gt;&lt;st1:place w:st="on"&gt;Ajax&lt;/st1:place&gt;&lt;/st1:City&gt; focused... There is also some good information in the keynotes. &lt;?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: #8f3b39; FONT-FAMILY: Arial; mso-themecolor: accent2; mso-themeshade: 191"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: #8f3b39; FONT-FAMILY: Arial; mso-themecolor: accent2; mso-themeshade: 191"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Developing a Better User Experience with "Atlas"&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Speaker(s): Scott Guthrie&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Focus(s): Developer&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Session Type(s): Breakout&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;This session is a developer overview of "Atlas", Microsoft's new cross-platform/cross-browser framework for building rich, client-centric AJAX-style Web applications. Learn about data-binding, modernized object-oriented JavaScript techniques, and designing interactive UI, as you follow along through the construction of a mash-up&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: #8f3b39; FONT-FAMILY: Arial; mso-themecolor: accent2; mso-themeshade: 191"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Designing a Better User Experience with &lt;st1:place w:st="on"&gt;&lt;st1:City w:st="on"&gt;AJAX&lt;/st1:City&gt;&lt;/st1:place&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Speaker(s): Brad Abrams, Rick Spencer&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Focus(s): Designer&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Session Type(s): Breakout&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;This session explores best practices for designers who are tackling the real challenges of building AJAX-style user experiences on the Web. Learn about designing richer user experiences directly from the Windows Live Local and "Atlas" development teams. Explore how the "Atlas" controls and components remove the complexity from designing rich, interactive experiences, and help you build AJAX-style applications more quickly.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Building Components and Services for the Programmable Web&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Speaker(s): Nikhil Kothari&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Focus(s): Architect, Developer&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Session Type(s): Breakout&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Want to learn how to expose components and services like Windows Live Local and Virtual Earth, but not sure where to begin? This session introduces real-world design patterns and best practices for constructing reusable Web components and Web-based services for the programmable Web. Explore how "Atlas" makes it incredibly simple for developers to consume these components and services to build gadgets, mash-ups, and other rich user experiences on the Web. Learn how to deliver functionality for a new generation of Web applications designed around reusable UI, components, and Web-based services.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: #8f3b39; FONT-FAMILY: Arial; mso-themecolor: accent2; mso-themeshade: 191"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Lessons from the Trenches: Engineering Great &lt;st1:place w:st="on"&gt;&lt;st1:City w:st="on"&gt;AJAX&lt;/st1:City&gt;&lt;/st1:place&gt; Experiences&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Speaker(s): Scott Isaacs&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Focus(s): Designer, Developer&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Session Type(s): Breakout&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Explore the challenges and lessons learned developing the Windows Live and Gadgets Web client frameworks powering Windows Live, Hotmail (Kahuna beta), Spaces, and more. This technical talk presents design and architectural considerations for building interactive AJAX-like sites. See how componentization, network management, accessibility, page composition, and more impact the design and engineering of your Web application.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Overview of Live.com Gadgets&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Speaker(s): Sanaz Ahari&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Focus(s): Business Decision Maker, Designer, Developer&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormalIndent style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Session Type(s): Breakout&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Live.com, the front-door to Windows Live, enables users to consume and manage their services in one place using gadgets. Learn about the benefits of live.com, the use of &lt;st1:City w:st="on"&gt;&lt;st1:place w:st="on"&gt;AJAX&lt;/st1:place&gt;&lt;/st1:City&gt; and "Atlas" for building rich gadgets, and reaching Windows Live customers by building gadgets.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;BTW – other good &lt;A href="http://channel9.msdn.com/Showforum.aspx?forumid=14&amp;amp;tagid=91"&gt;Mix06 videos are posted as well&lt;/A&gt;. &lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535509" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/brada/archive/category/12206.aspx">Atlas</category></item><item><title>State of WA Digital Archives Project using Visual Studio 2005</title><link>http://blogs.msdn.com/govdev/archive/2006/02/20/535486.aspx</link><pubDate>Mon, 20 Feb 2006 16:05:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535486</guid><dc:creator>GovDevelopers</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;&lt;SPAN id=caseStudyContentLabel style="FONT-SIZE: x-small"&gt;The State of Washington has 6 million people and more than 3,000 local and statewide agencies that serve them. The Washington State Digital Archives is a division of the Office of the Secretary of State. Less than a year after launching the first software solution in the United States designed to archive the historical records of an entire state, developers of the Washington State Digital Archives approached a major enhancement with two goals in mind: Streamline the original code base, which was built mostly on theoretical models; and support a database anticipated to grow from 30 gigabytes to 10 terabytes by late 2006, at a rate determined not by the development group but by external agencies. Developers replaced hand-coded routines with built-in capabilities from the Microsoft® Visual Studio® 2005 development system and used features in the Microsoft SQL Server™ 2005 database management system to support database growth. In just two months, the three-and-a-half-person development group released the upgrade. &lt;/SPAN&gt;&lt;BR&gt;&lt;/P&gt;
+&lt;P&gt;To download case study,&lt;/P&gt;
+&lt;P&gt;&lt;A href="https://members.microsoft.com/customerevidence/search/evidencedetails.aspx?evidenceid=13573&amp;amp;languageid=1&amp;amp;pft=microsoft%20visual%20studio%202005&amp;amp;taxid=20326"&gt;https://members.microsoft.com/customerevidence/search/evidencedetails.aspx?evidenceid=13573&amp;amp;languageid=1&amp;amp;pft=microsoft%20visual%20studio%202005&amp;amp;taxid=20326&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535486" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/govdev/archive/category/11328.aspx">Visual Studio</category></item><item><title>Reminder – MCT User Group</title><link>http://blogs.msdn.com/trobbins/archive/2006/02/20/535484.aspx</link><pubDate>Mon, 20 Feb 2006 16:03:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535484</guid><dc:creator>trobbins</dc:creator><slash:comments>0</slash:comments><description>&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial"&gt;What: This is a user group meeting for MCTs and Speakers. &lt;BR&gt;Who:&amp;nbsp; Open to all current or former MCTs and Speakers. &lt;BR&gt;Where: Microsoft New England District: Waltham, MA&lt;BR&gt;&lt;A title=http://www.microsoft.com/mscorp/info/usaoffices/newengland/waltham.mspx href="http://www.microsoft.com/mscorp/info/usaoffices/newengland/waltham.mspx"&gt;http://www.microsoft.com/mscorp/info/usaoffices/newengland/waltham.mspx&lt;/A&gt;&lt;BR&gt;When 6:00 PM&lt;BR&gt;Price: Free&lt;BR&gt;&amp;nbsp;&lt;BR&gt;Agenda:&lt;BR&gt;6:00PM&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Pizza, Soda and Community&lt;BR&gt;6:15PM&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; News, and Business&lt;BR&gt;6:30 PM&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;Speech “New MCT Certification’s and Delivery Requirements for New SQL and Development Courses”&lt;BR&gt;&lt;BR&gt;&amp;nbsp;&lt;BR&gt;If you are not from Boston (Nebraska, Redmond, Jersey, New York, Australia…) now is a great time for a vacation.&amp;nbsp; Come to the meeting and write it off as a valid business expense. :)&lt;BR&gt;&amp;nbsp;&lt;BR&gt;Feel free to repost this anywhere MCTs gather.&lt;/SPAN&gt;&lt;?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Arial"&gt;This will be on the 6th floor of the new Microsoft New England District Building and it will be marked as “Microsoft Certified Trainers Community Action Network”.&lt;/SPAN&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535484" width="1" height="1"&gt;</description></item><item><title>See a demo of&amp;quot;Crossbow&amp;quot; - Windows Forms and Windows Presentation Foundation Interoperability</title><link>http://blogs.msdn.com/bgold/archive/2006/02/20/535488.aspx</link><pubDate>Mon, 20 Feb 2006 16:01:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535488</guid><dc:creator>bgold</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;In November, I took on a new role as the Lead Product Manager for the Client/Web Platform and Tools team.&amp;nbsp; This is a new charter for our group and it mirrors the charter that &lt;A href="http://weblogs.asp.net/scottgu/"&gt;Scott Guthrie&lt;/A&gt;'s new organization is responsible for.&amp;nbsp; One of the product units we look after is called UIFx which incorproates both the &lt;A href="http://www.asp.net/"&gt;ASP.NET &lt;/A&gt;framework team and the &lt;A href="http://www.windowsforms.net"&gt;Windows Form &lt;/A&gt;framework team.&amp;nbsp; Together, they are going to be able to build an amazing set of integrated framework technologies for delivering technologies both in the browser and on the desktop.&lt;/P&gt;
+&lt;P&gt;One of the cool incubation projects in the team is a project codenamed "Crossbow," which is a set of technology to enable WinForms and WPF interop -- or the ability to easily integrate WPF based components into tradition, WinForms based Smart Client applications -- this enables developers to easily add even richer UI to existing WinForms investments and help simplify integrating WPF investments into existing applications.&lt;/P&gt;
+&lt;P&gt;&lt;A HREF="/mhendersblog/"&gt;Mike Henderlight&lt;/A&gt;, one of the PM's on CrossBow recently did an awesome &lt;A href="http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20060216CrossbowMH/manifest.xml"&gt;MSDN TV &lt;/A&gt;episode focused on "CrossBow" -- you should check it out &lt;A href="http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20060216CrossbowMH/manifest.xml"&gt;here&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&lt;A href="http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20060216CrossbowMH/manifest.xml"&gt;http://msdn.microsoft.com/msdntv/episode.aspx?xml=episodes/en/20060216CrossbowMH/manifest.xml&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;Let us know your thoughts!&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535488" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/bgold/archive/category/12237.aspx">WinForms</category></item><item><title>Branch and merge and other useful posts</title><link>http://blogs.msdn.com/buckh/archive/2006/02/20/535491.aspx</link><pubDate>Mon, 20 Feb 2006 16:01:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535491</guid><dc:creator>buckh</dc:creator><slash:comments>0</slash:comments><description>&lt;A HREF="/robcaron"&gt;Rob Caron&lt;/A&gt; pointed out a post over at Vertigo Software regarding the &lt;A href="http://blogs.vertigosoftware.com/teamsystem/archive/2006/01/18/Team_System_Using_the_Console.aspx"&gt;tf.exe command line&lt;/A&gt;&amp;nbsp;(I like the command line too, but I'm biased :-).&amp;nbsp; There's also a nice post on &lt;A href="http://blogs.vertigosoftware.com/teamsystem/archive/2006/01/26/Branching_and_Merging.aspx#2027)"&gt;branching and merging&lt;/A&gt;, along with quite a few other &lt;A href="http://blogs.vertigosoftware.com/teamsystem/archive/2006/02/09/2157.aspx"&gt;useful&lt;/A&gt; &lt;A href="http://blogs.vertigosoftware.com/teamsystem/archive/2006/01/17/1908.aspx"&gt;posts&lt;/A&gt;.&amp;nbsp; Check it out.&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535491" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/buckh/archive/category/5314.aspx">Source Control</category><category domain="http://blogs.msdn.com/buckh/archive/category/5736.aspx">VS Team System</category></item><item><title>Northern Virginia SQL Server Users Group</title><link>http://blogs.msdn.com/federaldev/archive/2006/02/20/535469.aspx</link><pubDate>Mon, 20 Feb 2006 15:33:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535469</guid><dc:creator>FederalDev</dc:creator><slash:comments>0</slash:comments><description>&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;I've been talking to Jeremy Kadlec about the Northern Virginia SQL Server Users Group.&amp;nbsp; He asked me to spread the word to our Federal customers.&amp;nbsp; Here is the announcement for the upcoming meeting.&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;FONT face=Arial&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;-Marc&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;hr/&gt;&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Everyone,&lt;?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Good afternoon.&amp;nbsp; The Northern Virginia SQL Server Users Group (&lt;A href="http://www.novasql.com/"&gt;&lt;FONT color=#800080&gt;www.novasql.com&lt;/FONT&gt;&lt;/A&gt;) is announcing its second session for 2006 to benefit IT Professionals (DBAs, Developers, Admins, etc.) in the Northern Virginia, &lt;?xml:namespace prefix = st1 ns = "urn:schemas-microsoft-com:office:smarttags" /&gt;&lt;st1:City w:st="on"&gt;Washington&lt;/st1:City&gt; &lt;st1:State w:st="on"&gt;DC&lt;/st1:State&gt; and &lt;st1:place w:st="on"&gt;&lt;st1:State w:st="on"&gt;Maryland&lt;/st1:State&gt;&lt;/st1:place&gt; areas interested in SQL Server.&amp;nbsp; This session will be focused on &lt;SPAN style="COLOR: black"&gt;SQL Server 2005 and Reporting Services&lt;/SPAN&gt;.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Title – &lt;SPAN style="COLOR: black"&gt;SQL Server 2005 and Reporting Services &lt;/SPAN&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=circle&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;&lt;A href="http://www.novasql.com/presentations.htm"&gt;http://www.novasql.com/presentations.htm&lt;/A&gt; &amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Speaker – Microsoft&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Date and Time – Monday, February 27, 2006 @ 7:00 PM&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.25in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Location – Microsoft Training Center in &lt;st1:place w:st="on"&gt;&lt;st1:City w:st="on"&gt;Reston&lt;/st1:City&gt;, &lt;st1:State w:st="on"&gt;VA.&lt;/st1:State&gt;&lt;/st1:place&gt;&amp;nbsp; &lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=circle&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;st1:Street w:st="on"&gt;&lt;st1:address w:st="on"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;12012 Sunset Hills Rd.&lt;/SPAN&gt;&lt;/B&gt;&lt;/st1:address&gt;&lt;/st1:Street&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt; &lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;st1:place w:st="on"&gt;&lt;st1:City w:st="on"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Reston&lt;/SPAN&gt;&lt;/B&gt;&lt;/st1:City&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;, &lt;st1:State w:st="on"&gt;VA&lt;/st1:State&gt; &lt;st1:PostalCode w:st="on"&gt;20190&lt;/st1:PostalCode&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/st1:place&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt; 
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;*** NOTE *** - This 1 time meeting is at the Microsoft Training Center in Reston, VA, not the AT&amp;amp;T building in Vienna, VA.&amp;nbsp; &lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.25in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Directions – &lt;/SPAN&gt;&lt;B&gt;&lt;SPAN style="COLOR: black; mso-fareast-font-family: 'Times New Roman'"&gt;&lt;A href="http://www.novasql.com/Presentations/WelcometotheRestonMTC.doc" target=_blank&gt;&lt;SPAN style="COLOR: #000099"&gt;&lt;FONT face=Arial&gt;Click here for the Welcome to the MTC&lt;/FONT&gt;&lt;/SPAN&gt;&lt;/A&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.25in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Meeting RSVP – &lt;A href="http://www.novasql.com/meetingrsvp.asp"&gt;http://www.novasql.com/meetingrsvp.asp&lt;/A&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.25in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;NOVA SQL Founding Sponsors&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt; 
+&lt;UL style="MARGIN-TOP: 0in" type=circle&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Solid Quality Learning (&lt;A href="http://www.solidqualitylearning.com/"&gt;www.solidqualitylearning.com&lt;/A&gt;)&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt; 
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;AT&amp;amp;T (&lt;A href="http://www.att.com/gov"&gt;www.att.com/gov&lt;/A&gt;)&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt; 
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Edgewood Solutions (&lt;A href="http://www.edgewoodsolutions.com/"&gt;www.edgewoodsolutions.com&lt;/A&gt;)&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.25in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;B&gt;&lt;SPAN lang=FR style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'; mso-ansi-language: FR"&gt;NOVA SQL Sponsor – Lumigent Technologies&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt; 
+&lt;UL style="MARGIN-TOP: 0in" type=circle&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level2 lfo1; tab-stops: list 1.0in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Lumigent Technologies (&lt;A href="http://www.lumigent.com/"&gt;www.lumigent.com&lt;/A&gt;) is an industry leader in information security management solutions, enabling organizations to meet requirements for risk management, regulatory compliance, and privacy by ensuring the integrity of information systems. Lumigent products and services mitigate risk associated with fraud, process failures, and human error through prevention, detection, and deterrence.&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.75in"&gt;&lt;B&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/B&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Monthly Give-A-Way –&lt;/SPAN&gt;&lt;FONT face=Arial&gt;&lt;SPAN style="FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Verdana; mso-fareast-font-family: 'Times New Roman'"&gt; Many goodies!&lt;/SPAN&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt 0.25in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;New Attendee Starbucks Gift Card – Bring someone new to a NOVA SQL meeting to qualify for a $5.00 Starbucks gift card - while supplies last.&amp;nbsp; Many thanks to our monthly sponsor for the gift cards!&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;Please support our sponsors - &lt;A href="http://www.novasql.com/sponsors.htm"&gt;http://www.novasql.com/sponsors.htm&lt;/A&gt; &amp;nbsp;&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;NOVA SQL News - &lt;A href="http://www.novasql.com/News.htm"&gt;http://www.novasql.com/News.htm&lt;/A&gt; &lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;UL style="MARGIN-TOP: 0in" type=disc&gt;
+&lt;LI class=MsoNormal style="MARGIN: 0in 0in 0pt; mso-list: l0 level1 lfo1; tab-stops: list .5in"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial; mso-fareast-font-family: 'Times New Roman'"&gt;NOVA SQL Jobs - &lt;A href="http://www.novasql.com/Jobs.htm"&gt;http://www.novasql.com/Jobs.htm&lt;/A&gt; &lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/LI&gt;&lt;/UL&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Don’t miss Monday’s meeting with great information, answers from Microsoft, pizza’s, soda, prizes&amp;nbsp;and more!&amp;nbsp; Future meetings will cover core SQL Server topics for administrators and developers such as performance tuning, disaster recovery, development, SQL Server 2005, etc.&amp;nbsp; Please come join us for information packed sessions and spread the word!&lt;o:p&gt;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Thank you,&lt;/SPAN&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;SPAN style="FONT-SIZE: 10pt; FONT-FAMILY: Arial"&gt;Jeremy Kadlec and Brian Moran &lt;/SPAN&gt;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535469" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/federaldev/archive/category/11122.aspx">SQL Server 2005</category></item><item><title>List of tools and add-ins for TFS</title><link>http://blogs.msdn.com/buckh/archive/2006/02/20/535458.aspx</link><pubDate>Mon, 20 Feb 2006 15:23:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535458</guid><dc:creator>buckh</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;&lt;A href="http://blog.hundhausen.com/"&gt;Richard Hundhasen&lt;/A&gt; mentioned that he's trying to keep a list of tools and add-ins for TFS at &lt;A href="http://teamsystemexperts.com/widgets.aspx"&gt;http://teamsystemexperts.com/widgets.aspx&lt;/A&gt;.&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535458" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/buckh/archive/category/5314.aspx">Source Control</category><category domain="http://blogs.msdn.com/buckh/archive/category/5736.aspx">VS Team System</category></item><item><title>How the study of languages influences one's appreciation of international competition</title><link>http://blogs.msdn.com/oldnewthing/archive/2006/02/20/535442.aspx</link><pubDate>Mon, 20 Feb 2006 15:00:12 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535442</guid><dc:creator>oldnewthing</dc:creator><slash:comments>3</slash:comments><description>&lt;P&gt;
+One of the consequences of studying another language for me is that
+I develop some sort of mental connection with the people who speak that
+language, despite having no innate cultural basis for it.
+When I studied German,
+I found myself cheering for the German athletes in the Olympic Games.
+And in the men's 4x10,000 cross-country relay yesterday,
+I was cheering for the German team, the Swedish team,
+and the Norwegian team (especially the Norwegians),
+but it was all for naught as
+&lt;A HREF="http://www.torino2006.org/ENG/IDF/CC/C73C_CCM410101.html"&gt;
+the Italians proved too much for all of them&lt;/A&gt;.
+&lt;/P&gt;
+&lt;P&gt;
+(Yes, I haven't started studying Norwegian yet, but,
+&lt;A HREF="http://blogs.msdn.com/oldnewthing/archive/2004/05/12/130455.aspx"&gt;
+as my Swedish readers already know&lt;/A&gt;,
+it was the
+Lillehammer Olympics that reinforced
+my interest in the Scandinavian
+languages, and with it, my affinity for the Norwegian cross-country team.)
+&lt;/P&gt;
+&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535442" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/oldnewthing/archive/category/2284.aspx">Non-Computer</category></item><item><title>Why does my program run faster if I click and hold the caption bar?</title><link>http://blogs.msdn.com/oldnewthing/archive/2006/02/20/535440.aspx</link><pubDate>Mon, 20 Feb 2006 15:00:07 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535440</guid><dc:creator>oldnewthing</dc:creator><slash:comments>6</slash:comments><description>&lt;P&gt;
+Sometimes, people discover that a long-running task
+runs faster if you hold down the mouse.
+How can that be?
+&lt;/P&gt;
+&lt;P&gt;
+This strange state of affairs
+typically results when a program is spending too much time
+updating its progress status and not enough time actually doing work.
+(In other words, the programmer messed up badly.)
+When you click and hold the mouse over the caption bar,
+the window manager waits for the next mouse message
+so it can determine whether
+you are clicking on the caption or attempting to drag.
+During this waiting, window painting is momentarily suppressed.
+&lt;/P&gt;
+&lt;P&gt;
+That's why the program runs faster:
+No window painting means less CPU spent updating something
+faster than you can read it anyway.
+Let's illustrate this with a sample program.
+Start with
+&lt;A HREF=http://blogs.msdn.com/oldnewthing/archive/2005/04/22/410773.aspx"&gt;
+the new scratch program&lt;/A&gt;
+and make the following changes:
+&lt;/P&gt;
+&lt;PRE&gt;
+class RootWindow : public Window
+{
+public:
+ virtual LPCTSTR ClassName() { return TEXT("Scratch"); }
+ static RootWindow *Create();
+ &lt;FONT COLOR=blue&gt;void PaintContent(PAINTSTRUCT *pps);&lt;/FONT&gt;
+protected:
+ LRESULT HandleMessage(UINT uMsg, WPARAM wParam, LPARAM lParam);
+ LRESULT OnCreate();
+ &lt;FONT COLOR=blue&gt;static DWORD CALLBACK ThreadProc(void *p);&lt;/FONT&gt;
+private:
+ HWND m_hwndChild;
+ &lt;FONT COLOR=blue&gt;int m_value;&lt;/FONT&gt;
+};
+
+LRESULT RootWindow::OnCreate()
+{
+ &lt;FONT COLOR=blue&gt;QueueUserWorkItem(ThreadProc, this, WT_EXECUTELONGFUNCTION);&lt;/FONT&gt;
+ return 0;
+}
+
+&lt;FONT COLOR=blue&gt;void RootWindow::PaintContent(PAINTSTRUCT *pps)
+{
+ TCHAR sz[256];
+ int cch = wnsprintf(sz, 256, TEXT("%d"), m_value);
+ ExtTextOut(pps-&amp;gt;hdc, 0, 0, 0, &amp;amp;pps-&amp;gt;rcPaint, sz, cch, 0);
+}
+
+DWORD RootWindow::ThreadProc(void *p)
+{
+ RootWindow*self = reinterpret_cast&amp;lt;RootWindow*&amp;gt;(p);
+ for (int i = 0; i &amp;lt; 100000; i++) {
+  self-&amp;gt;m_value++;
+  InvalidateRect(self-&amp;gt;m_hwnd, NULL, NULL);
+ }
+ MessageBeep(-1);
+ return 0;
+}&lt;/FONT&gt;
+&lt;/PRE&gt;
+&lt;P&gt;
+This program fires up a background thread that counts up to 100,000
+and invalidates the foreground window each time the value changes.
+Run it and watch how fast the numbers count up to 100,000.
+(I added a little beep when the loop is finished so you can judge
+the time by listening.)
+&lt;/P&gt;
+&lt;P&gt;
+Now run it again, but this time, click and hold the mouse on the title bar.
+Notice that the program beeps almost immediately:
+It ran faster when you held the mouse down.
+That's because all the painting was suppressed by the
+maybe-a-drag-operation-is-in-progress that was triggered when you
+clicked and held the caption.
+&lt;/P&gt;
+&lt;P&gt;
+Updating the screen at every increment is clearly pointless
+because you're incrementing far faster than the screen can refresh,
+not to mention far faster than the human eye can read it.
+As a rule of thumb, changing progress status
+faster than ten times per second is generally pointless.
+The effort you're spending on the screen updates is wasted.
+&lt;/P&gt;
+&lt;P&gt;
+Let's fix our sample program to update at most ten times per second.
+We will run a timer at 100ms which checks if anything has changed
+and repaints if so.
+&lt;/P&gt;
+&lt;PRE&gt;
+class RootWindow : public Window
+{
+ ...
+ &lt;FONT COLOR=blue&gt;LONG m_fChanged;&lt;/FONT&gt;
+};
+
+DWORD RootWindow::ThreadProc(void *p)
+{
+ RootWindow*self = reinterpret_cast&amp;lt;RootWindow*&amp;gt;(p);
+ for (int i = 0; i &amp;lt; 100000; i++) {
+  self-&amp;gt;m_value++;
+  &lt;FONT COLOR=blue&gt;InterlockedCompareExchangeRelease(&amp;amp;m_fChanged, TRUE, FALSE);&lt;/FONT&gt;
+ }
+ MessageBeep(-1);
+ return 0;
+}
+
+LRESULT RootWindow::OnCreate()
+{
+ QueueUserWorkItem(ThreadProc, this, WT_EXECUTELONGFUNCTION);
+ &lt;FONT COLOR=blue&gt;SetTimer(m_hwnd, 1, 100, NULL);&lt;/FONT&gt;
+ return 0;
+}
+
+LRESULT RootWindow::HandleMessage(
+                          UINT uMsg, WPARAM wParam, LPARAM lParam)
+{
+  ...
+  &lt;FONT COLOR=blue&gt;case WM_TIMER:
+   switch (wParam) {
+   case 1:
+    if (InterlockedCompareExchangeAcquire(&amp;amp;m_fChanged,
+                                                   FALSE, TRUE)) {
+      if (m_value &amp;gt;= 100000) {
+        KillTimer(m_hwnd, 1);
+      }
+      InvalidateRect(m_hwnd, NULL, FALSE);
+    }
+   }
+   break;&lt;/FONT&gt;
+   ...
+}
+&lt;/PRE&gt;
+&lt;P&gt;
+Instead of updating the screen each time the counter changes value,
+we merely set a "hey, something changed" flag and check it on our
+timer.
+We set the flag with release semantics in the producer thread
+(because we want all pending stores to complete before the exchange
+occurs) and clear the flag with acquire semantics in the consumer
+thread
+(because we don't want any future stores to be speculated ahead
+of the exchange).
+&lt;/P&gt;
+&lt;P&gt;
+Run the program again and notice that it counts all the way
+up to 100,000 instantly.
+Of course, that doesn't really demonstrate the progress counter,
+so insert a &lt;CODE&gt;Sleep(1);&lt;/CODE&gt; into the loop:
+&lt;/P&gt;
+&lt;PRE&gt;
+DWORD RootWindow::ThreadProc(void *p)
+{
+ RootWindow*self = reinterpret_cast&amp;lt;RootWindow*&amp;gt;(p);
+ for (int i = 0; i &amp;lt; 100000; i++) {
+  self-&amp;gt;m_value++;
+  InterlockedCompareExchangeRelease(&amp;amp;m_fChanged, TRUE, FALSE);
+  &lt;FONT COLOR=blue&gt;Sleep(1);&lt;/FONT&gt;
+ }
+ MessageBeep(-1);
+ return 0;
+}
+&lt;/PRE&gt;
+&lt;P&gt;
+This slows down the loop enough that you can now see the values
+being incremented.
+It's not the dizzying incrementing that you saw in the original
+version, but it's fast enough that people will get the point.
+&lt;/P&gt;
+&lt;P&gt;
+The mechanism I used to pass information between the background and
+foreground thread assumed that background changes were comparatively
+frequent, so that the timer will nearly always see something worth
+doing.
+If you have a mix of fast and slow tasks, you could change the
+communication mechanism so that the timer shut itself off when
+it noticed that some time has elapsed with no changes.
+The background thread would then have to start the timer again
+when it resumed updating the value.
+I didn't bother writing this more complicated version because it
+would just be a distraction from the point of the article.
+&lt;/P&gt;
+&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535440" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/oldnewthing/archive/category/2281.aspx">Code</category></item><item><title>SYSK 66:  .NET 1.1 and 2.0 Handles ASCII Encoding Differently?</title><link>http://blogs.msdn.com/irenak/archive/2006/02/20/535422.aspx</link><pubDate>Mon, 20 Feb 2006 14:20:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535422</guid><dc:creator>irenak</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;My tests show that the answer is Yes…&amp;nbsp; See it for yourself.&lt;/P&gt;
+&lt;P&gt;Create a windows app in VS 2003, add one text box and one button to a form and put the following code behind the button click:&lt;/P&gt;
+&lt;BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px"&gt;
+&lt;P&gt;&lt;FONT size=1&gt;// A bunch of bytes represented by their code&lt;BR&gt;string[] input = "98 22 248 167 95 213 187 61 95 34 182 249 149 140 222 222 63 192 134 194".Split(' ');&lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT size=1&gt;byte[] byteData = new byte[input.Length];&lt;BR&gt;for (int i = 0; i &amp;lt; byteData.Length; i++ )&lt;BR&gt;{&lt;BR&gt;byteData[i] = (byte) int.Parse(input[i]);&lt;BR&gt;}&lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT size=1&gt;// this works the same in 1.1 and 2.0&lt;BR&gt;//textBox21Text = System.Text.Encoding.UTF8.GetString(byteData);&lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT size=1&gt;// this works the same in 1.1 and 2.0&lt;BR&gt;//textBox1.Text = System.Text.Encoding.Unicode.GetString(byteData);&lt;/FONT&gt;&lt;/P&gt;
+&lt;P&gt;&lt;FONT size=1&gt;// this is where the problem surfaces&lt;BR&gt;textBox1.Text = System.Text.Encoding.ASCII.GetString(byteData);&lt;/FONT&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;Now, do exactly the same in VS 2005.&lt;/P&gt;
+&lt;P&gt;Run both applications, click the button and compare the results in the text box.&amp;nbsp; If you want to go fancy, add a second text box and a second button to VS 2005 project and do the comparison in code as follows:&lt;/P&gt;
+&lt;BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px"&gt;
+&lt;P&gt;&lt;BR&gt;&lt;FONT size=1&gt;if (textBox1.Text == textBox2.Text)&lt;BR&gt;&amp;nbsp;MessageBox.Show("Ok.&amp;nbsp; Same.");&lt;BR&gt;else&lt;BR&gt;&amp;nbsp;MessageBox.Show("Not the Same!");&lt;BR&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;
+&lt;P&gt;Then, simply copy and paste VS2003’s text box data in text box 2 of VS 2005 project and click the second button to see the results…&lt;BR&gt;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535422" width="1" height="1"&gt;</description></item><item><title>New Composite UI Application Block released.</title><link>http://blogs.msdn.com/clare_dillon/archive/2006/02/20/535417.aspx</link><pubDate>Mon, 20 Feb 2006 13:55:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535417</guid><dc:creator>Clare Dillon</dc:creator><slash:comments>1</slash:comments><description>&lt;P&gt;&lt;FONT face=Verdana size=2&gt;Just spotted the following on &lt;A href="http://msdn.microsoft.com/vbasic/"&gt;Visual Basic Developer Center&lt;/A&gt; - I know a lot of folks at the community events have said they&amp;nbsp;found applications blocks like these helpful in the past... so just in case you haven't spotted this new one...&lt;/FONT&gt;&lt;/P&gt;
+&lt;BLOCKQUOTE dir=ltr style="MARGIN-RIGHT: 0px"&gt;
+&lt;P&gt;&lt;FONT face=Verdana size=2&gt;The patterns &amp;amp; practices group has released the &lt;/FONT&gt;&lt;A title=http://go.microsoft.com/?linkid=4545105 href="http://go.microsoft.com/?linkid=4545105"&gt;&lt;FONT face=Verdana color=#0033cc size=2&gt;Composite UI Application Block&lt;/FONT&gt;&lt;/A&gt;&lt;FONT face=Verdana size=2&gt; - a reusable, source code-based component based on the Microsoft .NET Framework 2.0. Build complex, smart-client user interfaces based on well-known design patterns such as the Composite pattern, in which simple user interface parts can be combined to create complex solutions, but at the same time allowing these parts to be independently developed, tested, and deployed.&lt;/FONT&gt; &lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;/BLOCKQUOTE&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535417" width="1" height="1"&gt;</description></item><item><title>Using scripting host to develop and test MOM Scripts.</title><link>http://blogs.msdn.com/alex_semi/archive/2006/02/20/535415.aspx</link><pubDate>Mon, 20 Feb 2006 13:45:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535415</guid><dc:creator>alex_semi</dc:creator><slash:comments>0</slash:comments><description>&amp;nbsp;
+Developing and testing MOM scripts sometimes can be tricky, because you can’t simply cut and paste VBS which works with scripting host to MOM. Let me share how I develop and test scripts.
+&amp;nbsp;
+My typical project folder looks like this:
+&amp;nbsp;
+
+Lib
+Lib\backend-ws.vbs
+Lib\mom.vbs
+middleend-discovery-build.cmd
+middleend-discovery.vbs
+middleend-discovery.wsf
+middleend-performance-build.cmd
+middleend-performance.mom
+middleend-performance.vbs
+middleend-performance.wsf&amp;nbsp;
+Toolkit...(&lt;a href="http://blogs.msdn.com/alex_semi/archive/2006/02/20/535415.aspx"&gt;read more&lt;/a&gt;)&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535415" width="1" height="1"&gt;</description><enclosure url="http://blogs.msdn.com/alex_semi/attachment/535415.ashx" length="2959" type="application/x-zip-compressed" /></item><item><title>Premier Post</title><link>http://blogs.msdn.com/leludo2/archive/2006/02/20/535408.aspx</link><pubDate>Mon, 20 Feb 2006 13:37:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535408</guid><dc:creator>leludo</dc:creator><slash:comments>0</slash:comments><description>Un petit message de bienvenue&lt;br&gt;&lt;br&gt;@suivre...&lt;br&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535408" width="1" height="1"&gt;</description></item><item><title>Free Configuring Mobile E-Mail with Exchange 2003 sp2, Windows Mobile 5 &amp;amp; Messaging and Security Feature Pack Workshop</title><link>http://blogs.msdn.com/jasonlan/archive/2006/02/20/535401.aspx</link><pubDate>Mon, 20 Feb 2006 13:01:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535401</guid><dc:creator>jasonlan</dc:creator><slash:comments>1</slash:comments><description>&lt;P&gt;For Microsoft Partners we have the following FREE course which will give you the in-depth knowledge to setup, configure and support the Microsoft Direct Push Email solution!&lt;/P&gt;
+&lt;P&gt;Courses are at Wokingham, Edinburgh, Wakefield and London run by our training partner Azlan.&lt;/P&gt;
+&lt;P&gt;There are still places free so sign up at:&lt;/P&gt;
+&lt;P&gt;&lt;A href="http://www.microsoft.co.uk/events/EventDetail.aspx?eventid=8320"&gt;http://www.microsoft.co.uk/events/EventDetail.aspx?eventid=8320&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535401" width="1" height="1"&gt;</description></item><item><title>Contravariance and Covariance</title><link>http://blogs.msdn.com/kaevans/archive/2006/02/20/535406.aspx</link><pubDate>Mon, 20 Feb 2006 13:01:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535406</guid><dc:creator>kaevans</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;In a recent talk on What's New in C# 2.0, I explained the concepts of covariance and contravariance.&amp;nbsp; Several people came up to me afterwards and said they absolutely got it, but wanted to find out where to find more information.&lt;/P&gt;
+&lt;P&gt;&lt;A href="http://msdn.microsoft.com/msdnmag/issues/05/10/NETMatters/default.aspx"&gt;Stephen Toub has a great article in the October 2005 issue of MSDN Magazine that explains covariance and contravariance&lt;/A&gt;.&amp;nbsp; Make sure to pay attention to the explanation of the ArrayTypeMismatch exception and understand why this happens.&amp;nbsp; Here is the code listing that I&amp;nbsp;used during the presentation while talking about covariance:&lt;/P&gt;&lt;PRE&gt;&lt;CODE&gt;
+using System;
+using System.Collections.Generic;&lt;/CODE&gt;&lt;/PRE&gt;&lt;PRE&gt;&lt;CODE&gt;
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            foo[] myarr = new bar[5];
+            for (int i = 0; i &amp;lt; 5; i++)
+            {
+                myarr[i] = new bar();
+            }
+
+            //Uncomment this to see the ArrayTypeMismatchException
+            //myarr[0] = new foo();
+            
+            for (int i = 0; i &amp;lt; 5; i++)
+            {
+                myarr[i].OverrideMe();
+            }
+        }
+    }
+
+
+    class foo
+    {
+        public virtual void OverrideMe()
+        {
+            Console.WriteLine("From the base");
+        }
+    }
+
+    class bar : foo
+    {
+        public override void OverrideMe()
+        {
+            Console.WriteLine("From the derrived type");
+        }
+    }
+}
+&lt;/CODE&gt;&lt;/PRE&gt;
+&lt;P&gt;The reason that most developers choose arrays is because it is just too much work to define a strongly-typed collection with iterators, arrays just makes that easier.&amp;nbsp; If that is the motivation, then Generics is the way to go instead.&amp;nbsp; We are able to move the runtime exception back into a compile-time exception and guarantee the type contained in our structure.&lt;/P&gt;&lt;PRE&gt;&lt;CODE&gt;            List&amp;lt;bar&amp;gt; myarr = new List&amp;lt;bar&amp;gt;(5);
+                        
+            for (int i = 0; i &amp;lt; 5; i++)
+            {
+                myarr.Add(new bar());                
+            }
+
+            for (int i = 0; i &amp;lt; 5; i++)
+            {
+                myarr[i].OverrideMe();
+            }&lt;/CODE&gt;&lt;/PRE&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535406" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/kaevans/archive/category/108.aspx">.NET Programming</category></item><item><title>The Old Indigo ABC's</title><link>http://blogs.msdn.com/drnick/archive/2006/02/20/534453.aspx</link><pubDate>Mon, 20 Feb 2006 13:00:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:534453</guid><dc:creator>Nicholas Allen</dc:creator><slash:comments>0</slash:comments><description>&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;One of the fundamental things that has followed us around through more product name changes than you can shake a stick at is that a service endpoint basically boils down into three things:&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Address&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Binding&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Contract&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Formerly the Indigo ABC's, I guess these are now the WCFABCs (it really just flows off the tongue when pronounced as a word).&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;A service is nothing but a blob of code that runs somewhere in the world.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;The connection points where a service interacts with someone else are called endpoints.&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;The only thing that identifies an endpoint is that it has some URL for an address.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;That's pretty much all you need to know about addresses to survive in the new WCF world.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;Addresses are where things take place.&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;At a particular address, both sides need to use the same network protocols so that the two can exchange messages.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;The binding wraps a particular group of protocols together to describe the right way to put messages on the wire and the right way to take those messages back off the wire on the other side.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;I suppose that bindings are a little more complicated than addresses because I basically started this blog to talk about this binding business and I just punted a few of the lower priority topics to May.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;Bindings are how things take place.&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Once you have an address and binding, you can start actually exchanging messages between the client and server.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;The particular set of messages that one side can send and the other side will understand is called the contract.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;Putting together the right contract is even more complicated than designing the right binding, so you're pretty much on your own here.&lt;SPAN style="mso-spacerun: yes"&gt;&amp;nbsp; &lt;/SPAN&gt;Contracts are what things take place.&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Here's the essence of a WCF service in just 10 words:&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Addresses are where,&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Bindings are how,&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;and&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Contracts are what.&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;Next time: One of these Things is Not Like the Others (Channel vs. Transport)&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=534453" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/drnick/archive/category/12219.aspx">Indigo Tech Basics</category><category domain="http://blogs.msdn.com/drnick/archive/category/12228.aspx">Indigo All</category></item><item><title>ASP.NET 2.0 - Composite Controls</title><link>http://blogs.msdn.com/ahenrik/archive/2006/02/20/535341.aspx</link><pubDate>Mon, 20 Feb 2006 13:00:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535341</guid><dc:creator>ahenrik</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;Dino Esposito har skrivit en lysande artikel om förbättringarna med ASP.NET 2.0 och Composite Controls. Bland förbättringarna med det nya ramverket märks framförallt en förenklad databindning mot .NET Fx 1.1.&lt;/P&gt;
+&lt;P&gt;&lt;A href="http://msdn.microsoft.com/asp.net/default.aspx?pull=/library/en-us/dnaspp/html/ASPNETContDev.asp"&gt;A Crash Course on ASP.NET Control Development: Building Composite Controls&lt;/A&gt;&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535341" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/ahenrik/archive/category/10263.aspx">ASP.Net</category><category domain="http://blogs.msdn.com/ahenrik/archive/category/10644.aspx">.NET Framework 2</category></item><item><title>Visual Basic 2005 -seminaari 20.3.2006 elokuvateatteri Bristolissa</title><link>http://blogs.msdn.com/aalialikoski/archive/2006/02/20/535403.aspx</link><pubDate>Mon, 20 Feb 2006 12:59:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535403</guid><dc:creator>AaliAlikoski</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;Pidämme VB:n nykyversiosta seminaaripäivän elokuvateatteri Bristolissa Helsingissä. Puhujina &lt;A href="/jroxe/"&gt;Jay Roxe&lt;/A&gt;, Tyler Whitney sekä suomalaisia suuruuksia (puhujan henkilöllisyys tarkentuu lähiaikoina :)&lt;/P&gt;
+&lt;P&gt;Lisätietoja ja ilmoittautuminen &lt;A href="http://www.microsoft.fi/vb2005"&gt;täällä&lt;/A&gt;.&lt;/P&gt;
+&lt;P&gt;Päivän ohjelma:&lt;/P&gt;
+&lt;P align=left&gt;&lt;B&gt;9:00-9:30&lt;/B&gt; Mitä uutta tarjoaa Visual Basic 2005? &lt;/P&gt;
+&lt;P align=left&gt;&lt;B&gt;9:30-11:00&lt;/B&gt; Windows Forms 2.0 Development and Deployment&lt;/P&gt;
+&lt;P align=left&gt;&lt;B&gt;11:00&lt;/B&gt; Lounas&lt;/P&gt;
+&lt;P align=left&gt;&lt;B&gt;11:45-13:15&lt;/B&gt; Introduction to ASP.NET 2.0 using Visual Basic 2005&lt;/P&gt;
+&lt;P align=left&gt;&lt;B&gt;13:15-14.30&lt;/B&gt; Smart Client Development Using Visual Studio Tools for Office and Windows Mobile&lt;/P&gt;
+&lt;P align=left&gt;&lt;STRONG&gt;14:30&lt;/STRONG&gt; Kahvitauko&lt;/P&gt;
+&lt;P align=left&gt;&lt;B&gt;14:50-16:05&lt;/B&gt; Top Ten Tips and Tricks From the Visual Basic Team&lt;/P&gt;
+&lt;P align=left&gt;&lt;B&gt;16:05-16:50&lt;/B&gt; Micration experiences by local ISV house&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535403" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/aalialikoski/archive/category/8036.aspx">Academic</category><category domain="http://blogs.msdn.com/aalialikoski/archive/category/8037.aspx">Architect</category><category domain="http://blogs.msdn.com/aalialikoski/archive/category/8039.aspx">Finnish</category><category domain="http://blogs.msdn.com/aalialikoski/archive/category/10973.aspx">Event Announcements</category></item><item><title>Rovaniemi 21.3.2006</title><link>http://blogs.msdn.com/aalialikoski/archive/2006/02/20/535395.aspx</link><pubDate>Mon, 20 Feb 2006 12:51:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535395</guid><dc:creator>AaliAlikoski</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;Pidämme seminaaripäivän&amp;nbsp;&lt;STRONG&gt;Rovaniemellä 21.3.2006&lt;/STRONG&gt;. Tilaisuus jakautuu kahteen osaan siten, että aamupäivä on tarkoitettu paikallisten yritysten edustajille ja iltapäivä&amp;nbsp;Rovaniemen alueen opiskelijoille, sekä yliopiston että ammattikorkeakoulun. Molemmat osuudet ovat ilmaisia ja kaikille avoimia, joskin sisältö on osittain päällekkäistä joten sekä aamu- että iltapäivään ei välttämättä kannata osallistua. Ilmoittautuminen aamupäivään on pakollista ja iltapäivään vapaaehtoista (kts postauksen loppu). &lt;/P&gt;
+&lt;P&gt;Samankaltaisia tilaisuuksia on tarkoitus pitää kaikilla yliopistopaikkakunnilla syksyn/talven aikana, joten jos sinulla on toiveita oman paikkakuntasi suhteen niin laita &lt;A HREF="/aalialikoski/contact.aspx"&gt;&lt;FONT color=#355ea0&gt;&lt;STRONG&gt;Contact-lomakkeen&lt;/STRONG&gt;&lt;/FONT&gt;&lt;/A&gt; kautta postia minulle.&lt;/P&gt;
+&lt;P&gt;Luentojen pitäjinä minä sekä&amp;nbsp;Timo Jokinen&amp;nbsp;FCS Partnersilta. Tilaisuus pidetään &lt;STRONG&gt;Lapin yliopiston salissa LS2&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Aamupäivän ohjelma:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;8:30 Aamukahvi ja ilmoittautuminen&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;9:00 Uudet kehitysvälineet kohdennetusti eri työvaiheisiin ja tarpeisiin&lt;BR&gt;&lt;/STRONG&gt;-.NET Framework 2.0&lt;BR&gt;-Visual Studio 2005:n versiot arkkitehdeille, kehittäjille, testaajille ja projektipäälliköille &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;9:30 Onko päänsärkynäsi Visual Basicin päivittäminen?&lt;BR&gt;&lt;/STRONG&gt;-Päivitysstrategian valinta&lt;BR&gt;-Upgrade Wizard&lt;BR&gt;-VB6 Form:sta .NET Windows Forms, ADO:sta ADO.NET:een, ASP:sta ASP.NET:een, COM:sta .NET komponentteihin&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;10:15 Tauko&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;10:30 Käytännön esimerkkejä päivityksistä&lt;BR&gt;&lt;/STRONG&gt;-FCS kurssinhallinta&lt;BR&gt;-Päivittämisen kipukohtia&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;11:15 Näin käy selainsovelluksen teko Visual Studio 2005:lla&lt;BR&gt;&lt;/STRONG&gt;-ASP.NET 2.0&lt;BR&gt;-Datalähtöiset sovellukset&lt;BR&gt;-Käyttäjätunnistus, personoitavat selainsovellukset &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;12:00 Aamupäivätilaisuus päättyy&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Ilmoittautuminen aamupäivään tulee tähän lähiaikoina.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Iltapäivän ohjelma:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;13:15 Microsoft ja opiskelijat: mitä tapahtuu ja miksi?&lt;BR&gt;&lt;/STRONG&gt;-Imagine Cup-kehityskilpailu, MSDN AA-ohjelma: kehitysvälineitä opetuskäyttöön, uuden Visual Studio 2005:n yleiskuva&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;13:45 Selainsovelluksen kehittäminen&lt;BR&gt;&lt;/STRONG&gt;-ASP.NET 2.0, datalähtöiset sovellukset , käyttäjätunnistus ja personoitavat selainsovellukset&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;14:45 Tauko&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;15:00 Windows Vista kehittäjän näkökulmasta&lt;BR&gt;&lt;/STRONG&gt;- WinFX (WPF, WCF, WWF)&lt;BR&gt;- Uusi käyttöliittymäohjelmointialusta&lt;BR&gt;- Yhtenäinen kommunikointirajapinta&lt;BR&gt;- Workflow:sta geneerinen sovelluksen toimintalogiikka&lt;BR&gt;- Visual Studio "Orcas"&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;15:40-16:00 Kumppanin puheenvuoro: miksi .NET on tärkeä?&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;16:30-19:00 Illanvietto ja vapaata keskustelua (paikka tarkentuu)&lt;BR&gt;&lt;/STRONG&gt;-Paikallisen ohjelmistotalon näkemys työelämän tarjoamista mahdollisuuksista ja mitä osaamista nyt ja tulevaisuudessa tarvitaan&lt;/P&gt;
+&lt;P&gt;Ilmoittautuminen iltapäivään tulee tähän lähiaikoina. Huomaa, että &lt;STRONG&gt;ilmoittautuminen tuon saitin kautta ei ole pakollista mutta suotavaa&lt;/STRONG&gt;, sitä kautta ilmoittautuneiden kesken arvomme ainakin läppärirepun, kukaties muutakin jos ilmoittautumisia tulee paljon. Ja tietysti iltatarjoilut varataan ilmoittautuneiden määrän mukaan. Ilmoittautuminen vaatii Passport-tunnuksen.&lt;/P&gt;
+&lt;P&gt;Jos opiskelijoilla (ja muillakin iltapäivään osallistuvilla) on toiveita sisällön suhteen, niitä voi esittää kommentoimalla tätä postausta. Me otetaan toiveet mahdollisuuksien mukaan huomioon. Aihepiirinä kuitenkin Microsoftin sovelluskehitysvälineet laajasti ajateltuna, mutta kaikki rakentavat kommentit muistakin aiheista otetaan toki vastaan.&lt;/P&gt;
+&lt;P&gt;Tervetuloa!&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535395" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/aalialikoski/archive/category/8036.aspx">Academic</category><category domain="http://blogs.msdn.com/aalialikoski/archive/category/8039.aspx">Finnish</category><category domain="http://blogs.msdn.com/aalialikoski/archive/category/10973.aspx">Event Announcements</category></item><item><title>Updated session list for TechED Israel 2006 - Dev Track</title><link>http://blogs.msdn.com/yosit/archive/2006/02/20/535388.aspx</link><pubDate>Mon, 20 Feb 2006 12:17:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535388</guid><dc:creator>yosit</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;Here is another draft - still trying to figure out about what 3 session we'll do on .net 2.0, we have an excellent session on Data Binding which everyone must attend (you wouldn't believe how much code you can save if you exploit the framework like you should).&lt;?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /&gt;&lt;o:p&gt;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P&gt;WINFX Overview&lt;BR&gt;Windows Presentation Framework Part 1 - Getting to know the key concepts of the next generation UI Technology&lt;BR&gt;Windows Presentation Framework Part 2 - Interoperability with Windows Forms&lt;BR&gt;Windows Communication Foundation Part 1 - Introduction&lt;BR&gt;Windows Communication Foundation Part 2 - Moving to WCF from Current Technologies&lt;BR&gt;Windows Workflow Foundation Part 1 - Introduction&lt;BR&gt;Windows Workflow Foundation Part 2 - Integrating WWF into your current projects&lt;BR&gt;Creating a Multi-Tier Application Using VSTO 2005&lt;BR&gt;Programmability Improvements in Office 2007&lt;BR&gt;Team System - Managing your daily and automated build&lt;BR&gt;Team System - An In-Depth Look at Team Foundation Version Control&lt;BR&gt;Team System - How to effectively test your application&lt;BR&gt;Team System - End To End Application Life Cycle Management&lt;BR&gt;Shaping Team Foundation for your Environment; Customization and Extensibility&lt;BR&gt;From SQL Express to SQL Server Data Center Edition - The developer Perspective&lt;BR&gt;SQL Server Development Technologies&lt;BR&gt;The .NET Language Integrated Query Framework: An Overview&lt;BR&gt;Using the .NET Language Integrated Query Framework with Relational Data&lt;BR&gt;Advanced Windows Form Data Bindings - How to exploit .net 2.0 advanced binding features and write less code&lt;BR&gt;Advanced Windows Form Topics - Part 2 (not finalized)&lt;BR&gt;Advanced ASP.NET 2.0 - Part 1 (not finalized)&lt;BR&gt;Advanced ASP.NET 2.0 - Part 2 (not finalized)&lt;BR&gt;Clemens TV&lt;BR&gt;Leveraging extensions in VS as a platform for your developers&lt;BR&gt;Microsoft Integration Technologies: When to Use What&lt;BR&gt;Threat Modeling&lt;BR&gt;Secure Application Development&lt;BR&gt;Dogfooding Team System:&amp;nbsp; How Microsoft&amp;nbsp; uses Team Foundation to build Team Foundation&lt;o:p&gt;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P&gt;There are more sessions for developer on other tracks like Mobility and Architecture that I'll post later on.&lt;o:p&gt;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P&gt;Any comments will be appreciated.&lt;o:p&gt;&lt;/o:p&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;o:p&gt;&amp;nbsp;&lt;/o:p&gt;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535388" width="1" height="1"&gt;</description></item><item><title>Viewing Microsoft CRM's DHTML Source Code</title><link>http://blogs.msdn.com/midatlanticcrm/archive/2006/02/20/Viewing_the_DHTML_Source_in_Microsoft_CRM_3.aspx</link><pubDate>Mon, 20 Feb 2006 12:00:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:533823</guid><dc:creator>Ben Vollmer</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;So something cool is that Microsoft CRM renders all of it’s pages in &lt;/FONT&gt;&lt;A href="http://en.wikipedia.org/wiki/DHTML"&gt;&lt;FONT face=Verdana&gt;DHTML.&lt;/FONT&gt;&lt;/A&gt;&lt;FONT face=Verdana&gt; One of the coolest things that the product group did was the new &lt;/FONT&gt;&lt;A href="http://msdn.microsoft.com/library/en-us/CrmSdk3_0/htm/v3d0formeventsonload.asp"&gt;&lt;FONT face=Verdana&gt;OnLoad&lt;/FONT&gt;&lt;/A&gt;&lt;FONT face=Verdana&gt; event. &amp;nbsp;So what does that mean to you?&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;So let’s talk about this… &amp;nbsp;How would you like to be able to control a screen with a little bit more ability to tweak than you have today? I personally love the &lt;/FONT&gt;&lt;A href="/midatlanticcrm/archive/2005/12/30/Tools_for_Helping_Write_JScript_within_Microsoft_CRM_3.aspx"&gt;&lt;FONT face=Verdana&gt;Internet Explorer Developer Toolbar.&lt;/FONT&gt;&lt;/A&gt;&lt;FONT face=Verdana&gt; But sometimes brute force is better than the pretty stuff that it exposes. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;So lets just say for some reason you want to remove some things from the left navigation bar, but want to leave the entity in place. Tomorrow’s post will have that script for your pleasure. Today is all about how we got here… &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;So in this case, we want to remove the Quotes, Orders and Invoices from the Contact Entity. But we want to leave them for the Accounts. Under normal circumstances, we would remove the item from the security role, but that takes it from both entities. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;So how do we get here?&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;Lets open a Contact Record up. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&amp;nbsp;&lt;/FONT&gt;&lt;A href="http://www.microsoftcrmdemo.com/blog/HideANav/ContactRecord.JPG"&gt;&lt;FONT face=Verdana&gt;&lt;IMG height=323 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactRecordSmall.JPG" width=408 border=0&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;Then hit the F11 key on the keyboard. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&amp;nbsp;&lt;/FONT&gt;&lt;A href="http://www.microsoftcrmdemo.com/blog/HideANav/ContactF11.JPG"&gt;&lt;FONT face=Verdana&gt;&lt;IMG height=323 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactF11Small.JPG" width=408 border=0&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;Now you should see an Address Bar. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&amp;nbsp;&lt;IMG height=206 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactF11BlowUp.JPG" width=289 border=0&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;Now hit CTRL + N at the same time. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&amp;nbsp;&lt;/FONT&gt;&lt;A href="http://www.microsoftcrmdemo.com/blog/HideANav/ContactCTRLN.JPG"&gt;&lt;FONT face=Verdana&gt;&lt;IMG height=323 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactCTRLNSmall.JPG" width=408 border=0&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;You should now see the typical Internet Explorer Menus and Toolbars. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;IMG height=283 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactCTRLNBlowUp.JPG" width=256 border=0&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;Once that is done, select View | Source and you can see all of the DHTML for page. &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;A href="http://www.microsoftcrmdemo.com/blog/HideANav/ContactViewSource.JPG"&gt;&lt;FONT face=Verdana&gt;&lt;IMG height=323 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactViewSourceSmall.JPG" width=408 border=0&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;The code as you can see is not formated for readability. Paste the code into your handy Visual Studio and Press Control+K then Control+D to format the HTML Code.&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;But here is a picture of what we did with this new found knowledge... We managed to use OnLoad to remove the Quotes, Orders and Invoices from the navigation pane of the contact form. (While leaving it 100% intact for Accounts and on the &lt;/FONT&gt;&lt;A href="/jensenh/archive/2005/10/07/478214.aspx"&gt;&lt;FONT face=Verdana&gt;Wűnderbar&lt;/FONT&gt;&lt;/A&gt;&lt;FONT face=Verdana&gt;.) &lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;A href="http://www.microsoftcrmdemo.com/blog/HideANav/ContactRecordwithChanges.JPG"&gt;&lt;FONT face=Verdana&gt;&lt;IMG height=323 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactRecordwithChangesSmall.JPG" width=408 border=0&gt;&lt;/FONT&gt;&lt;/A&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;And a blow up of that:&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;IMG height=284 src="http://www.microsoftcrmdemo.com/blog/HideANav/ContactRecordwithChangesBlowup.JPG" width=216 border=0&gt;&lt;/FONT&gt;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;&lt;/FONT&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P class=MsoNormal style="MARGIN: 0in 0in 0pt"&gt;&lt;FONT face=Verdana&gt;Tomorrow's post is going to have the script used to hide Quotes, Orders and Invoices. &lt;/FONT&gt;&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=533823" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/midatlanticcrm/archive/category/11341.aspx">Demo Tools</category><category domain="http://blogs.msdn.com/midatlanticcrm/archive/category/11557.aspx">Flat Out Geek</category></item><item><title>Prototyping With PowerPoint</title><link>http://blogs.msdn.com/jensenh/archive/2006/02/20/535444.aspx</link><pubDate>Mon, 20 Feb 2006 12:00:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535444</guid><dc:creator>jensenh</dc:creator><slash:comments>6</slash:comments><description>&lt;P&gt;A couple of weeks ago when I talked about
+&lt;a href="http://blogs.msdn.com/jensenh/archive/2006/01/24/516810.aspx"&gt;The 
+Feature Bob Invented&lt;/a&gt;, I mentioned that we use PowerPoint as an easy way to 
+prototype UI, especially in the early stages of design. A number of people have asked me 
+for more details, and so today I thought I'd go through it step-by-step.&lt;/P&gt;
+&lt;P&gt;We use PowerPoint as kind of a better version of
+&lt;a href="http://blogs.msdn.com/jensenh/archive/2006/01/06/510069.aspx"&gt;paper prototypes&lt;/a&gt;. 
+This technique has several advantages: prototypes can be made to feel somewhat interactive, because the content 
+is electronic it can be modified more easily than paper, and (best of all) the 
+usability participant uses the mouse and is on the computer, so it feels natural to them.&lt;/P&gt;
+&lt;P&gt;In my opinion, paper prototypes always suffer a little bit because of the 
+weirdness of asking people to pretend paper is the monitor and a pencil is the 
+mouse. &lt;i&gt;(Although I guess with the advent of Tablet PC's, this is becoming less 
+weird...)&lt;/i&gt;&lt;/P&gt;
+&lt;P&gt;Note: The following technique will only work for PowerPoint 2002 and above. 
+Previous versions did not include sufficient support for transparent AutoShapes.&lt;/P&gt;
+&lt;P&gt;The way we normally set up PowerPoint prototypes is this:&lt;/P&gt;
+&lt;ul&gt;
+	&lt;li&gt;Put screenshots of all of the different UI states you want to test onto 
+	different slides.&lt;br&gt;
+	&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;If your UI is mostly popups on top of a static frame, you might consider 
+	putting that static frame into the slide master background; that way, you 
+	only need to put the UI which changes on each slide. (Click View, 
+	Master, Slide Master to access the slide masters.)&lt;br&gt;&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Next, you want to make sure PowerPoint doesn't advance your slide show 
+	to the next slide whenever the user clicks. This is so you can simulate 
+	interactive click behavior within the prototype. Click Slide Transition on 
+	the Slide Show menu, turn off the setting to Advance Slide On Mouse Click, 
+	and then click the Apply All button to apply the setting to all slides.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Now, that your overall prototype is set up, it's time to add interactivity. Let's 
+say you have a button, and when 
+someone clicks on that button, you want it to simulate bringing up a menu. Easy 
+enough, assuming you have added slides containing pictures of both states 
+(pre-menu and while the menu is up.)&lt;/p&gt;
+&lt;ul&gt;
+	&lt;li&gt;Using the Drawing toolbar at the bottom of the screen, draw a box over 
+	the hit target for the button. (You can use any other AutoShape you want, it 
+	doesn't have to be a rectangle.)&lt;br&gt;&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Now, right-click the shape and click Format AutoShape on the context 
+	menu.&lt;br&gt;&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;On the Colors and Lines tab, set the Transparency to 1% and remove the 
+	border entirely. This will make the shape virtually invisible, yet will 
+	still allow you to receive mouse clicks on it. (If you make it entirely 
+	transparent, PowerPoint doesn't register mouse clicks on the shape.)&lt;br&gt;&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Now, right-click the shape again, and click Action Settings on the 
+	context menu. This is where you determine what should happen when the button 
+	is clicked.&lt;br&gt;&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Normally, I choose "Hyperlink to:" in the dialog and then choose to which 
+	slide it should navigate. You could also be fancier and have an external 
+	program launch, a sound played, or run a custom macro. If you wanted a snazzy 
+	rollover effect, the Mouse Over tab in this dialog would be the place to do 
+	that.&lt;br&gt;&lt;br&gt;
+	&lt;/li&gt;
+	&lt;li&gt;Repeat this process for each slide to which you want to add interactive 
+	behavior.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You're good to go! We've found that this technique has yielded some very 
+useful prototypes with a minimum amount of work.&lt;/p&gt;
+
+&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535444" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/jensenh/archive/category/11721.aspx">UI Design Issues</category><category domain="http://blogs.msdn.com/jensenh/archive/category/11726.aspx">Usability</category></item><item><title>Kuopio 6.3.2006</title><link>http://blogs.msdn.com/aalialikoski/archive/2006/02/20/535374.aspx</link><pubDate>Mon, 20 Feb 2006 11:10:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535374</guid><dc:creator>AaliAlikoski</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;Pidämme seminaaripäivän&amp;nbsp;&lt;STRONG&gt;Kuopiossa 6.3.2006&lt;/STRONG&gt;. Tilaisuus jakautuu kahteen osaan siten, että aamupäivä on tarkoitettu paikallisten yritysten edustajille ja iltapäivä&amp;nbsp;Kuopion alueen opiskelijoille, sekä yliopiston että ammattikorkeakoulun. Molemmat osuudet ovat ilmaisia ja kaikille avoimia, joskin sisältö on osittain päällekkäistä joten sekä aamu- että iltapäivään ei välttämättä kannata osallistua. Ilmoittautuminen aamupäivään on pakollista ja iltapäivään vapaaehtoista (kts postauksen loppu). &lt;/P&gt;
+&lt;P&gt;Samankaltaisia tilaisuuksia on tarkoitus pitää kaikilla yliopistopaikkakunnilla syksyn/talven aikana, joten jos sinulla on toiveita oman paikkakuntasi suhteen niin laita &lt;A HREF="/aalialikoski/contact.aspx"&gt;&lt;FONT color=#355ea0&gt;&lt;STRONG&gt;Contact-lomakkeen&lt;/STRONG&gt;&lt;/FONT&gt;&lt;/A&gt; kautta postia minulle.&lt;/P&gt;
+&lt;P&gt;Luentojen pitäjinä minä sekä&amp;nbsp;Tuukka Salonen&amp;nbsp;FCS Partnersilta. Tilaisuus pidetään &lt;STRONG&gt;Kuopion yliopiston salissa E26+27 (Microteknia 2, Microkatu 1)&lt;/STRONG&gt;.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Aamupäivän ohjelma:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;8:30 Aamukahvi ja ilmoittautuminen&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;9:00 Uudet kehitysvälineet kohdennetusti eri työvaiheisiin ja tarpeisiin&lt;BR&gt;&lt;/STRONG&gt;-.NET Framework 2.0&lt;BR&gt;-Visual Studio 2005:n versiot arkkitehdeille, kehittäjille, testaajille ja projektipäälliköille &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;9:30 Onko päänsärkynäsi Visual Basicin päivittäminen?&lt;BR&gt;&lt;/STRONG&gt;-Päivitysstrategian valinta&lt;BR&gt;-Upgrade Wizard&lt;BR&gt;-VB6 Form:sta .NET Windows Forms, ADO:sta ADO.NET:een, ASP:sta ASP.NET:een, COM:sta .NET komponentteihin&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;10:15 Tauko&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;10:30 SOA-arkkitehtuuri Microsoftin näkökulmasta&lt;BR&gt;&lt;/STRONG&gt;- Perusperiaatteet&lt;BR&gt;- Microsoftin SOA-välineet tänään&lt;BR&gt;- Tulevaisuuden näkymiä&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;11:15 Näin käy selainsovelluksen teko Visual Studio 2005:lla&lt;BR&gt;&lt;/STRONG&gt;-ASP.NET 2.0&lt;BR&gt;-Datalähtöiset sovellukset&lt;BR&gt;-Käyttäjätunnistus, personoitavat selainsovellukset &lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;12:00 Aamupäivätilaisuus päättyy&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;Ilmoittautuminen aamupäivään tulee tähän lähiaikoina.&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;Iltapäivän ohjelma:&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;13:15 Microsoft ja opiskelijat: mitä tapahtuu ja miksi?&lt;BR&gt;&lt;/STRONG&gt;-Imagine Cup-kehityskilpailu, MSDN AA-ohjelma: kehitysvälineitä opetuskäyttöön, uuden Visual Studio 2005:n yleiskuva&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;13:45 Selainsovelluksen kehittäminen&lt;BR&gt;&lt;/STRONG&gt;-ASP.NET 2.0, datalähtöiset sovellukset , käyttäjätunnistus ja personoitavat selainsovellukset&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;14:45 Tauko&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;15:00 Windows Vista kehittäjän näkökulmasta&lt;BR&gt;&lt;/STRONG&gt;- WinFX (WPF, WCF, WWF)&lt;BR&gt;- Uusi käyttöliittymäohjelmointialusta&lt;BR&gt;- Yhtenäinen kommunikointirajapinta&lt;BR&gt;- Workflow:sta geneerinen sovelluksen toimintalogiikka&lt;BR&gt;- Visual Studio "Orcas"&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;15:40-16:00 Kumppanin puheenvuoro: miksi .NET on tärkeä?&lt;BR&gt;&lt;/STRONG&gt;&lt;/P&gt;
+&lt;P&gt;&lt;STRONG&gt;16:30-19:00 Illanvietto ja vapaata keskustelua (paikka tarkentuu)&lt;BR&gt;&lt;/STRONG&gt;-Paikallisen ohjelmistotalon näkemys työelämän tarjoamista mahdollisuuksista ja mitä osaamista nyt ja tulevaisuudessa tarvitaan&lt;/P&gt;
+&lt;P&gt;Ilmoittautuminen iltapäivään tulee tähän lähiaikoina. Huomaa, että &lt;STRONG&gt;ilmoittautuminen tuon saitin kautta ei ole pakollista mutta suotavaa&lt;/STRONG&gt;, sitä kautta ilmoittautuneiden kesken arvomme ainakin läppärirepun, kukaties muutakin jos ilmoittautumisia tulee paljon. Ja tietysti iltatarjoilut varataan ilmoittautuneiden määrän mukaan. Ilmoittautuminen vaatii Passport-tunnuksen.&lt;/P&gt;
+&lt;P&gt;Jos opiskelijoilla (ja muillakin iltapäivään osallistuvilla) on toiveita sisällön suhteen, niitä voi esittää kommentoimalla tätä postausta. Me otetaan toiveet mahdollisuuksien mukaan huomioon. Aihepiirinä kuitenkin Microsoftin sovelluskehitysvälineet laajasti ajateltuna, mutta kaikki rakentavat kommentit muistakin aiheista otetaan toki vastaan.&lt;/P&gt;
+&lt;P&gt;Tervetuloa!&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535374" width="1" height="1"&gt;</description><category domain="http://blogs.msdn.com/aalialikoski/archive/category/8036.aspx">Academic</category><category domain="http://blogs.msdn.com/aalialikoski/archive/category/8039.aspx">Finnish</category><category domain="http://blogs.msdn.com/aalialikoski/archive/category/10973.aspx">Event Announcements</category></item><item><title>Open Source Webcast</title><link>http://blogs.msdn.com/wcoleman/archive/2006/02/20/535367.aspx</link><pubDate>Mon, 20 Feb 2006 10:50:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535367</guid><dc:creator>wcoleman</dc:creator><slash:comments>0</slash:comments><description>While poking around on TechNet IT's Showtime I came across this &lt;A href="http://www.microsoft.com/emea/itsshowtime/sessionh.aspx?videoid=44"&gt;great webcast &lt;/A&gt;by Bill Hilf. Bill gives a good insight into OSS and it's definitely worth a look.&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535367" width="1" height="1"&gt;</description></item><item><title>Kanye West</title><link>http://blogs.msdn.com/wcoleman/archive/2006/02/20/535364.aspx</link><pubDate>Mon, 20 Feb 2006 10:14:00 GMT</pubDate><guid isPermaLink="false">91d46819-8472-40ad-a661-2c78acb4018c:535364</guid><dc:creator>wcoleman</dc:creator><slash:comments>0</slash:comments><description>&lt;P&gt;I managed to secure tickets to Kanye Wests' London concert back in December and oh man was it worth the wait. &lt;/P&gt;
+&lt;P&gt;Kanye demonstrated last night that he isn't just another MC but instead he is a true showman. I loved the fact that he didn't have a bunch of hype men running around with him on stage; he alone rocked the mic.&lt;/P&gt;
+&lt;P&gt;Highlight for me was 'Gold Digger', what a great song!! The sell-out crowd went crazy, you could hardly hear Kanye. &lt;/P&gt;
+&lt;P&gt;Now if only I can generate that much crowd enthusiasm in my events...&lt;/P&gt;
+&lt;P&gt;&amp;nbsp;&lt;/P&gt;
+&lt;P&gt;Edit. Just got an email about the misspelling :P Cheers!&lt;/P&gt;&lt;img src="http://blogs.msdn.com/aggbug.aspx?PostID=535364" width="1" height="1"&gt;</description></item></channel></rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="4C9AA0D7-7137-4223-BF7F-ED735A9C73EC" name="Samples" kpf_version="2">
+<preference-set id="">
+</preference-set>
+<file url="RssReader/rssreader.rb" id="D8310346-B2FA-479F-AD9D-9FA25FAD269A" name="rssreader.rb">
+</file>
+<file url="GoogleCalc/calc.rb" id="23DD6004-4C69-449B-881B-BFFAC8C215C0" name="calc.rb">
+</file>
+<file url="DataBinding/bind_ruby_array.rb" id="8D636375-3061-46E7-A8C5-5B7CBFA5CE79" name="bind_ruby_array.rb">
+</file>
+<file url="WPF/helloworld.rb" id="87010EF6-39B3-4AB4-86B0-207E65C3D39E" name="helloworld.rb">
+</file>
+<file url="WPF/math.rb" id="A7171860-0D48-4F66-9D3A-9E2463D1C427" name="math.rb">
+</file>
+<file url="WPF/math_app.xaml" id="07539BCA-4A9C-4715-BECE-C4A7099FEAE9" name="math_app.xaml">
+</file>
+<file url="WPF/math_doc.xaml" id="E5095D42-F621-4A28-94F1-BA12260A16C1" name="math_doc.xaml">
+</file>
+<file url="WPF/helloworld_app.xaml" id="23E5E2F2-8F89-4512-AE61-D1487F8EA1F4" name="helloworld_app.xaml">
+</file>
+<file url="DataBinding/bind_gridview.rb" id="543EE2A9-82E3-4561-BE3F-A3D38698B24C" name="bind_gridview.rb">
+</file>
+<file url="DataBinding/bind_textboxes.rb" id="8CF326B4-7383-4BE3-9DFA-E9C559D89CA7" name="bind_textboxes.rb">
+</file>
+<file url="DataBinding/irb_activerecord.rb" id="1F7703DF-72D8-4CBA-845F-4D134CB0025D" name="irb_activerecord.rb">
+</file>
+<file url="ActiveRecord/adonet_perf.rb" id="73BC6CBE-7924-4AC8-B8D3-AD2C63A41E5A" name="adonet_perf.rb">
+</file>
+<file url="ActiveRecord/active_perf.rb" id="5B42D2AC-F745-4F1F-8034-CD3C2F1B0B9A" name="active_perf.rb">
+</file>
+</project>

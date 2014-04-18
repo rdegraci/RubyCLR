@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="21CD2322-836D-42E9-AE37-ED71B7B2E941" name="RubyClr" kpf_version="2">
+<preference-set id="">
+</preference-set>
+<file url="winforms.rb" id="66E5217E-613E-44FD-9818-9FF71BD9EE4F" name="winforms.rb">
+</file>
+<file url="dynamicmethod.rb" id="E7349002-1800-483C-B08C-6DCCF28D4321" name="dynamicmethod.rb">
+</file>
+<file url="macros.rb" id="E7FB800A-B34E-4C0C-AC3B-8C26A4121B6C" name="macros.rb">
+</file>
+<file url="opcodes.rb" id="4CED388C-3933-45FF-BFF9-5A53CA65267B" name="opcodes.rb">
+</file>
+<file url="rubyclr.rb" id="FB91B7DB-CAA5-4241-A869-7CF05CF14C18" name="rubyclr.rb">
+</file>
+<file url="helpers.rb" id="79FB9B88-47E5-40A3-87B5-6E32534461F9" name="helpers.rb">
+</file>
+<file url="generate.rb" id="79C2BCA5-CA9E-4CAC-91DE-B8ACBD2D024C" name="generate.rb">
+</file>
+<file url="wpf.rb" id="F28F5A25-5250-4824-92E1-2D937D9F8A82" name="wpf.rb">
+</file>
+<file url="core.rb" id="88C0EEAF-9AF0-4190-B205-0BFE01438B68" name="core.rb">
+</file>
+<file url="file:///C:/Dev/rubyclr/trunk/Rakefile" id="93C7250A-3ECD-41FC-BBB6-9BD23A75A034" name="Rakefile">
+</file>
+<file url="help.rb" id="B614984C-8588-4252-892E-C4D804199E91" name="help.rb">
+</file>
+<file url="compilation.rb" id="C1ECAACD-4798-4091-8629-20822CCA07CA" name="compilation.rb">
+</file>
+<file url="databinding.rb" id="8F165704-09DA-4AFD-8D8B-44303D154D28" name="databinding.rb">
+</file>
+</project>

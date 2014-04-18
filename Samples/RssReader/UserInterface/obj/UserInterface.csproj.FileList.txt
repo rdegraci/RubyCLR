@@ -1,0 +1,10 @@
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\UserInterface.MainForm.resources
+obj\Debug\UserInterface.Properties.Resources.resources
+obj\Debug\UserInterface.csproj.GenerateResource.Cache
+bin\Debug\UserInterface.exe
+bin\Debug\UserInterface.pdb
+obj\Debug\UserInterface.exe
+obj\Debug\UserInterface.pdb
+obj\Debug\UserInterface.View.resources
+obj\Debug\UserInterface.Browser.resources

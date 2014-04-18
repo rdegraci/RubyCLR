@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/rss1full.xsl" type="text/xsl" media="screen"?>
+<?xml-stylesheet href="http://feeds.feedburner.com/~d/styles/itemcontent.css" type="text/css" media="screen"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:sy="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns="http://purl.org/rss/1.0/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+  <channel rdf:about="http://37signals.com/svn/">
+    <title>Signal vs. Noise</title>
+    <link>http://37signals.com/svn/</link>
+    <description />
+    <dc:language>en-us</dc:language>
+    <dc:creator />
+    <dc:date>2006-02-20T10:22:36-06:00</dc:date>
+    <admin:generatorAgent rdf:resource="http://www.movabletype.org/?v=3.2" />
+    <items>
+      <rdf:Seq>
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/ny_times_design_group_looking_for_staffers.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/it_just_doesnt_matter.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/launch_campfire_easy_group_chat_for_business.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/microsoft_office_live_is_web_based.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/cnni_goes_clean.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/the_fifth_plank_waxy_joins_the_deck.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/how_constrained_is_google_really.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/philips_keeps_it_simple.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/multitouch.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/less_noise_seriously.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/campfire_screen_shot_and_movie.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/one_last_campfire_test_before_launch.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/restaurant_flagging.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/audi_q7_behind_the_scenes.php" />
+        <rdf:li rdf:resource="http://37signals.com/svn/archives2/celebration_is_quality_control.php" />
+      </rdf:Seq>
+    </items>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" href="http://feeds.feedburner.com/37signals/beMH" type="application/rss+xml" />
+    <feedburner:browserFriendly>This is an XML content feed. It is intended to be viewed in a newsreader or syndicated to another site.</feedburner:browserFriendly>
+  </channel>
+  <item rdf:about="http://37signals.com/svn/archives2/ny_times_design_group_looking_for_staffers.php">
+    <title>NY Times design group looking for staffers</title>
+    <link>http://37signals.com/svn/archives2/ny_times_design_group_looking_for_staffers.php</link>
+    <description>&lt;p&gt;Khoi Vinh is hiring several full-time positions for the design group that he leads at the New York Times. If you&amp;#8217;re a visual designer, information architect, or design technologist looking for a gig, you can check out &lt;a title="Subtraction: How to Get Ahead in Online News Design" href="http://www.subtraction.com/archives/2006/0215_how_to_get_a.php"&gt;the job descriptions he posted at Subtraction&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=EM8lHkod"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=EM8lHkod" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=dj3nI34e"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=dj3nI34e" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject />
+    <dc:creator>Matt</dc:creator>
+    <dc:date>2006-02-20T10:22:36-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/it_just_doesnt_matter.php">
+    <title>It just doesn't matter</title>
+    <link>http://37signals.com/svn/archives2/it_just_doesnt_matter.php</link>
+    <description>&lt;p&gt;Today I spent a lot of time fielding questions about why we did this or that with Campfire. Why we added certain things, why we left out others, why the UI looks like this and not like that, etc. It&amp;#8217;s always a blast to interact with people who are genuinely curious (and not just there to bust balls).&lt;/p&gt;
+
+&lt;p&gt;My favorite answer to the &amp;#8220;why?&amp;#8221; question is always: &amp;#8220;Because it just doesn&amp;#8217;t matter.&amp;#8221; I think that statement embodies what makes a product great. Figuring out what matters and leaving out the rest.&lt;/p&gt;
+
+&lt;p&gt;Some common questions:&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Why time stamps every 5 minutes? Why not time stamp every chat line?&amp;#8221; Answer: It just doesn&amp;#8217;t matter. How often do you need to track a conversation by the second or even the minute? Certainly not 95% of the time. 5 minute stamps are sufficient because anything more specific just doesn&amp;#8217;t matter.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Why don&amp;#8217;t you allow bold or italic or colored formatting in the chats?&amp;#8221; Answer: It just doesn&amp;#8217;t matter. If you need to emphasize something use the trusty CAPS LOCK key or toss a few *&amp;#8217;s around the word or phrase. Those solutions don&amp;#8217;t require additional software, tech support, or have a learning curve. Besides, heavy formatting in a simple text-based chat just doesn&amp;#8217;t matter.&lt;/p&gt;
+
+&lt;p&gt;&amp;#8220;Why don&amp;#8217;t you show the total number of people in the room at a given time?&amp;#8221; Answer: It just doesn&amp;#8217;t matter. Everyone&amp;#8217;s name is listed so you know who&amp;#8217;s there, but what difference does it make if there&amp;#8217;s 12 or 16 people? If it doesn&amp;#8217;t change your behavior then it just doesn&amp;#8217;t matter.&lt;/p&gt;
+
+&lt;p&gt;Would these things be nice to have? Sure. Would they be great to have? Sure. Would they be cool to have? You bet. But do they &lt;em&gt;really matter&lt;/em&gt;? Nope. And that&amp;#8217;s why we left them out.&lt;/p&gt;
+
+&lt;p&gt;The best designers and the best programmers aren&amp;#8217;t the ones with the best skills, or the nimblest fingers, or the ones who can rock and roll with photoshop or vim, they are the ones that can determine what just doesn&amp;#8217;t matter. That&amp;#8217;s where the real gains are made.&lt;/p&gt;
+
+&lt;p&gt;Most of the time you spend is wasted time on things that just don&amp;#8217;t matter. If you can cut out the work and thinking that just doesn&amp;#8217;t matter you&amp;#8217;ll achieve productivity you&amp;#8217;ve never imagined. It&amp;#8217;s there if you just don&amp;#8217;t pay attention to the things that don&amp;#8217;t matter.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=2QiMN4ca"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=2QiMN4ca" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=HZHWIwWb"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=HZHWIwWb" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Getting Real</dc:subject>
+    <dc:creator>Jason</dc:creator>
+    <dc:date>2006-02-16T22:11:24-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/launch_campfire_easy_group_chat_for_business.php">
+    <title>LAUNCH: Campfire, easy group chat for business</title>
+    <link>http://37signals.com/svn/archives2/launch_campfire_easy_group_chat_for_business.php</link>
+    <description>&lt;p&gt;&lt;a href="http://www.campfirenow.com"&gt;&lt;img src="http://campfirenow.com/images/cfmark-big.gif" width="100" height="84" style="margin: 0 10px 10px 0; border: none;" align="left" /&gt;&lt;/a&gt; Today we officially announce the launch of Campfire, our simple real-time web-based group chat tool for business. We&amp;#8217;ve been using it internally for the last 45 days or so and it&amp;#8217;s become the most important collaboration tool we have. We hope you&amp;#8217;ll find it equally useful.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Some keys to Campfire&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Every chat has a permanent URL &amp;#8212; just like a web page or a blog post&lt;/li&gt;
+&lt;li&gt;Campfire chats don&amp;#8217;t require special chat software or networks&lt;/li&gt;
+&lt;li&gt;Campfire chats are persistent &amp;#8212; the rooms are always open and when you return you can catch up on the conversation you missed&lt;/li&gt;
+&lt;li&gt;You can instantly share and discuss files with your colleagues/clients&lt;/li&gt;
+&lt;li&gt;Upload a gif, jpg, png, or PDF and get a live preview of the image inline &amp;#8212; it&amp;#8217;s fantastic for discussing a mock-up or logo or design in real-time&lt;/li&gt;
+&lt;li&gt;You can search or browse through transcripts of past chats.&lt;/li&gt;
+&lt;li&gt;Campfire also offers secure chat over SSL (Plus and Premium plans)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The first question we get is &amp;#8220;How is this different or better than instant messaging?&amp;#8221; so we&amp;#8217;ve prepared a page about &lt;a href="http://campfirenow.com/better/"&gt;why Campfire is better for group chat than conventional instant messaging&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;If you know what IRC is then you can think of Campfire as IRC that anyone can set-up and use. If you don&amp;#8217;t know what IRC is then you&amp;#8217;re in the massive majority which is one of the reasons we built Campfire. The concept of IRC is strong, but the implementation of IRC is techie, confusing, and strange. Campfire drastically simplifies the concept of the persistent chat room and puts it in a web browser so everyone can use it.&lt;/p&gt;
+
+&lt;p&gt;At this time Campfire does not integrate with Basecamp on a deep level (but since chats have permanent URLs you can just post a chat URL to a project if you want to have chats about a project). We will be considering tighter integration later this year. We wanted to nail the basic product first. We also believe Campfire has a much broader appeal than just to people who use Basecamp &amp;#8212; any group that collaborates on anything can use real-time group chat. And yes, an API for Campfire is planned.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="http://campfirenow.com/tour/"&gt;Take a tour&lt;/a&gt;, &lt;a href="http://campfirenow.com/index.html"&gt;check it out&lt;/a&gt;, and sign up for a free 30-day trial.&lt;/p&gt;
+
+&lt;p&gt;We&amp;#8217;ve put a lot of energy into this app and we&amp;#8217;re really excited about it. We hope you find it valuable and useful. It&amp;#8217;s our simplest product on the surface, but the most complex under the hood. It was definitely a great learning experience and special thanks to Sam and Marcel for their magic. It was quite a first project to tackle!&lt;/p&gt;
+
+&lt;p&gt;So, &lt;a href="http://www.campfirenow.com"&gt;have at it&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; &lt;a href="https://svn.campfirenow.com/4839c"&gt;Join us in the Signal vs. Noise room&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=npwlR2XM"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=npwlR2XM" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=53hz8Nba"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=53hz8Nba" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>37signals</dc:subject>
+    <dc:creator>Jason</dc:creator>
+    <dc:date>2006-02-16T08:06:04-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/microsoft_office_live_is_web_based.php">
+    <title>Microsoft Office Live is "web based"</title>
+    <link>http://37signals.com/svn/archives2/microsoft_office_live_is_web_based.php</link>
+    <description>&lt;p&gt;&lt;a href="http://www.microsoft.com/presspass/press/2006/feb06/02-15OfficeLiveBetaPR.mspx"&gt;Office Live&lt;/a&gt;, Microsoft&amp;#8217;s entry into the web-based office application space, went beta today.&lt;/p&gt;
+
+&lt;p&gt;Check out some of the system requirements for certain features of this &amp;#8220;web-based&amp;#8221; service:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;To use the Edit in Datasheet feature within the Business Applications and Shared Sites areas &lt;strong&gt;requires Microsoft Office 2003&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;To export to Business Contact Manager &lt;strong&gt;requires Microsoft Office 2003, Microsoft Office XP, or Microsoft Office 2000&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;To import contacts from Microsoft Office Outlook &lt;strong&gt;requires Microsoft Office 2003 or Microsoft Office XP&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;To link contacts to Microsoft Office Outlook &lt;strong&gt;requires Microsoft Office 2003&lt;/strong&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And of course you must use IE. I never thought I&amp;#8217;d see a web app suite that has more system requirements than a desktop app, but I guess I should never underestimate Microsoft.&lt;/p&gt;
+&lt;p&gt;&lt;map name="google_ad_map_OOWeFD5-DWxlquoa6MoGkK-OLxU_"&gt;&lt;area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/OOWeFD5-DWxlquoa6MoGkK-OLxU_?pos=0" coords="1,2,367,28"/&gt;&lt;area shape="rect" href="http://services.google.com/feedback/abg" coords="384,10,453,23"/&gt;&lt;/map&gt;&lt;img usemap="#google_ad_map_OOWeFD5-DWxlquoa6MoGkK-OLxU_" border="0" src="http://imageads.googleadservices.com/pagead/ads?format=468x30_aff_img&amp;client=ca-pub-5352009007442360&amp;output=png&amp;cuid=OOWeFD5-DWxlquoa6MoGkK-OLxU_&amp;url=http%3A%2F%2F37signals.com%2Fsvn%2Farchives2%2Fmicrosoft_office_live_is_web_based.php"/&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=2wfN5CXE"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=2wfN5CXE" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=cng1LIq8"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=cng1LIq8" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Observations</dc:subject>
+    <dc:creator>Jason</dc:creator>
+    <dc:date>2006-02-15T23:03:23-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/cnni_goes_clean.php">
+    <title>CNNi Goes Clean</title>
+    <link>http://37signals.com/svn/archives2/cnni_goes_clean.php</link>
+    <description>&lt;p&gt;Loud, grating design on tv is standard: the gaudy Tron-like intro to American Idol, the flying swooshes of Fox Sports, the headache-inducing scrolling news tickers of cable news channels, etc. Everything&amp;#8217;s gotta be moving and DYNAMIC!&lt;/p&gt;
+
+&lt;p&gt;So kudos to CNN International for &lt;a href="http://www.digitalspy.co.uk/article/ds28632.html"&gt;going with a cleaner look and abandoning that ticking scroller&lt;/a&gt; (it&amp;#8217;s been replaced with a new information bar that displays one complete sentence or story at a time). CNNi is billing the change as a &amp;#8220;radical move away from the cluttered screens and heavy graphics that currently prevail&amp;#8230;&amp;#8221;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.37signals.com/svn/images/400x300_cnni_pakistan.jpg" width="400" height="300" alt="Cnni" /&gt;&lt;/p&gt;
+
+&lt;p&gt;Design firm &lt;a href="http://www.kemistry.co.uk/"&gt;Kemistry&lt;/a&gt; is behind the changes and says it cut back the font graphics to the length of words and sentences so that &amp;#8220;the video footage, so often obscured, becomes the most important feature on the screen.&amp;#8221; [via &lt;a href="http://www.waxy.org/links/"&gt;Waxy&lt;/a&gt;]&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=q9Fmgtg5"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=q9Fmgtg5" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=txRcwcub"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=txRcwcub" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Design</dc:subject>
+    <dc:creator>Matt</dc:creator>
+    <dc:date>2006-02-15T13:24:04-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/the_fifth_plank_waxy_joins_the_deck.php">
+    <title>The Fifth Plank: Waxy joins The Deck</title>
+    <link>http://37signals.com/svn/archives2/the_fifth_plank_waxy_joins_the_deck.php</link>
+    <description>&lt;p&gt;Starting next month Andy Baio&amp;#8217;s &lt;a href="http://www.waxy.org"&gt;Waxy.org&lt;/a&gt; becomes the fifth plank in &lt;a href="http://www.coudal.com/deck/"&gt;The Deck&lt;/a&gt; ad network we&amp;#8217;re building. Andy&amp;#8217;s &lt;a href="http://www.waxy.org/links/"&gt;influential links list&lt;/a&gt; pretty much sets the daily surfing agenda for the web dev and design communities. It also brings millions of new page views to any buy on the network. Not only does Andy seems to have a perfect sense of pitch when it comes to selecting the topics we&amp;#8217;re most interested in, he also seems to be hardwired in a way that results in lots of exclusive finds too.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#8217;ve got a product or service that could benefit by being in front of tons of  web design and design prefessionals, &lt;a href="http://www.coudal.com/deck/"&gt;there&amp;#8217;s a slot or two in The Deck open in March and April&lt;/a&gt; and we&amp;#8217;ll be making May through July available for reservations soon.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=1ZdG9jnK"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=1ZdG9jnK" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=JlbSHoWq"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=JlbSHoWq" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>37signals</dc:subject>
+    <dc:creator>Jason</dc:creator>
+    <dc:date>2006-02-15T09:21:22-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/how_constrained_is_google_really.php">
+    <title>How constrained is Google really?</title>
+    <link>http://37signals.com/svn/archives2/how_constrained_is_google_really.php</link>
+    <description>&lt;p&gt;It&amp;#8217;s great to hear Marissa Ann Mayer from Google &lt;a href="http://www.businessweek.com/innovate/content/jan2006/id20060131_531820.htm"&gt;pimp the new black in innovation&lt;/a&gt;: Constraints. But I do have the slight sense that we&amp;#8217;re talking about two different kinds of constraints. &lt;/p&gt;
+
+&lt;p&gt;We mostly contain ourselves to the &lt;a href="http://www.37signals.com/svn/archives2/less_as_a_competitive_advantage_my_10_minutes_at_web_20.php"&gt;business&lt;/a&gt; &lt;a href="http://www.37signals.com/svn/archives2/constraints_breed_breakthrough_creativity.php"&gt;constraints&lt;/a&gt; &lt;a href="http://www.37signals.com/svn/archives2/how_the_lack_of_constraints_killed_the_quality_of_star_wars.php"&gt;that&lt;/a&gt; &lt;a href="http://www.37signals.com/svn/archives2/entrepreneurs_angels_and_the_cost_of_launch.php"&gt;we&amp;#8217;ve&lt;/a&gt; &lt;a href="http://www.37signals.com/svn/archives2/getting_real_the_alone_time_zone.php"&gt;been&lt;/a&gt; &lt;a href="http://www.37signals.com/svn/archives2/why_the_big_teams_cant_hit_the_right_notes.php"&gt;harping&lt;/a&gt; &lt;a href="http://www.37signals.com/svn/archives2/dont_break_parkinsons_law.php"&gt;about&lt;/a&gt; for a while. Is that really what Marissa is talking about?&lt;/p&gt;
+
+&lt;p&gt;Because Google would surely be one of the last companies I would ever file under &amp;#8220;big in constraints&amp;#8221;. The company hires ten times the size of 37signals &lt;i&gt;every week&lt;/i&gt;. They chase a thousand science projects while collecting a billion dollars per quarter in revenue.&lt;/p&gt;
+
+&lt;p&gt;No harm in that, naturally. Google is great at what it does: Solving really hard problems by throwing more ph.d&amp;#8217;s, money, servers, and resources at it than most small countries have at their disposal. In effect, they&amp;#8217;re a celebrating the triumph of an abundance of resources: Making all information searching for the whole world.&lt;/p&gt;
+
+&lt;p&gt;But champions of constraint now? Hmmm.&lt;/p&gt;
+
+&lt;p&gt;See also James Governor for a &lt;a href="http://www.redmonk.com/jgovernor/archives/001286.html"&gt;few additional thoughts&lt;/a&gt; on this.&lt;/p&gt;
+&lt;p&gt;&lt;map name="google_ad_map_XeAhGrpKvFaXRzrzXbQnxsZbWq8_"&gt;&lt;area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/XeAhGrpKvFaXRzrzXbQnxsZbWq8_?pos=0" coords="1,2,367,28"/&gt;&lt;area shape="rect" href="http://services.google.com/feedback/abg" coords="384,10,453,23"/&gt;&lt;/map&gt;&lt;img usemap="#google_ad_map_XeAhGrpKvFaXRzrzXbQnxsZbWq8_" border="0" src="http://imageads.googleadservices.com/pagead/ads?format=468x30_aff_img&amp;client=ca-pub-5352009007442360&amp;output=png&amp;cuid=XeAhGrpKvFaXRzrzXbQnxsZbWq8_&amp;url=http%3A%2F%2F37signals.com%2Fsvn%2Farchives2%2Fhow_constrained_is_google_really.php"/&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=ytgJ35RR"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=ytgJ35RR" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=vMdTszdi"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=vMdTszdi" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Observations</dc:subject>
+    <dc:creator>David</dc:creator>
+    <dc:date>2006-02-14T16:44:58-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/philips_keeps_it_simple.php">
+    <title>Philips keeps it simple</title>
+    <link>http://37signals.com/svn/archives2/philips_keeps_it_simple.php</link>
+    <description>&lt;p&gt;The remote for my new Philips LCD TV has typical &amp;#8220;universal&amp;#8221; features to control a DVD player or VCR. I was amazed to find that I didn&amp;#8217;t have to enter brand and model codes while holding four buttons and standing on my head to set it up. Instead there are two idiot-proof steps, and the device either works or it doesn&amp;#8217;t. I love it.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="/images/svn_posts/philips-remote-instruction.gif" width="460" height="393" alt="Philips remote control instructions" /&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=U7pVFImg"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=U7pVFImg" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=rQ7KJJhO"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=rQ7KJJhO" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Design</dc:subject>
+    <dc:creator>Ryan</dc:creator>
+    <dc:date>2006-02-13T17:29:46-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/multitouch.php">
+    <title>Multi-Touch</title>
+    <link>http://37signals.com/svn/archives2/multitouch.php</link>
+    <description>&lt;p&gt;Pretty cool video avail here: &lt;a title="Multi-Touch Interaction Research" href="http://mrl.nyu.edu/~jhan/ftirtouch/"&gt;Bi-manual, multi-point, and multi-user interactions on a graphical interaction surface.&lt;/a&gt; &amp;#8220;While touch sensing is commonplace for single points of contact, multi-touch sensing enables a user to interact with a system with more than one finger at a time, as in chording and bi-manual operations.&amp;#8221; [via &lt;a href="http://www.blumpy.org/"&gt;Jakob&lt;/a&gt;]&lt;/p&gt;
+
+&lt;p&gt;&lt;img src="http://www.37signals.com/svn/images/still00.jpg" alt="multi-touch sample" /&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=1EOtwc44"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=1EOtwc44" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=lEkl11Wy"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=lEkl11Wy" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Design</dc:subject>
+    <dc:creator>Matt</dc:creator>
+    <dc:date>2006-02-13T09:24:14-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/less_noise_seriously.php">
+    <title>"Less noise. Seriously."</title>
+    <link>http://37signals.com/svn/archives2/less_noise_seriously.php</link>
+    <description>&lt;p&gt;&lt;a href="http://rentzsch.com/suck/stopStopStopHurtingTheInternet"&gt;This fellow&lt;/a&gt; compares the new IE7 toolbar with Safari. Click the image to draw your own conclusions.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="/images/svn_posts/ie7-safari_comparison.jpg" class="image"&gt;&lt;img src="/images/svn_posts/ie7-safari_zoomed.jpg" width="460" height="333" alt="IE7/Safari comparison" /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=mRGMIf4h"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=mRGMIf4h" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=Gz2rxfGe"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=Gz2rxfGe" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Design</dc:subject>
+    <dc:creator>Ryan</dc:creator>
+    <dc:date>2006-02-10T17:45:16-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/campfire_screen_shot_and_movie.php">
+    <title>Campfire screen shot and movie</title>
+    <link>http://37signals.com/svn/archives2/campfire_screen_shot_and_movie.php</link>
+    <description>&lt;p&gt;We&amp;#8217;re nearly there. Thanks to everyone that helped us with the load testing. Here&amp;#8217;s a bit more we can share before launch: &lt;a href="http://www.37signals.com/svn/images/campfireshot.png" /&gt;Campfire chat room screen shot&lt;/a&gt; from the tour and a &lt;a href="http://www.37signals.com/svn/images/campfiretranscripts.mov" /&gt;movie of the transcript browser&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=Lrp93BLa"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=Lrp93BLa" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=7oGAz7gr"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=7oGAz7gr" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>37signals</dc:subject>
+    <dc:creator>Jason</dc:creator>
+    <dc:date>2006-02-10T11:52:40-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/one_last_campfire_test_before_launch.php">
+    <title>One last Campfire test before launch</title>
+    <link>http://37signals.com/svn/archives2/one_last_campfire_test_before_launch.php</link>
+    <description>&lt;p&gt;Ok, time to pound on Campfire one more time. For those who don&amp;#8217;t know, Campfire is our simple group chat for business tool we&amp;#8217;re launching shortly.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;A FEW CAVEATS&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;This is a test only. You can&amp;#8217;t sign up for your own Campfire account yet. It&amp;#8217;s purely for load testing purposes. Campfire is not open for public business yet.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Campfire does not work with IE 6/7 at this time&lt;/strong&gt; &amp;#8212; we&amp;#8217;re only optimized for Firefox and Safari. &lt;strong&gt;We&amp;#8217;ll have IE support when we launch the real deal next week.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Transcripts are not visible to guests (everyone testing Campfire right now will be a guest). Members will have access to full chat and file transcripts (filterable by room, date, and person).&lt;/li&gt;
+&lt;li&gt;There will be glitches. We may kick everyone out at any time and open the rooms up again. We may close down a room with no notice. &lt;strong&gt;We may end the test at any time&lt;/strong&gt;. We&amp;#8217;re going to be watching to see how the system responds to a variety of loads and scenarios.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; The test is closed while we make some adjustments. Thanks to everyone that helped today.&lt;/p&gt;
+&lt;p&gt;&lt;map name="google_ad_map_4SgNDn8Db.8ACOvVAlUeQA0MvYg_"&gt;&lt;area shape="rect" href="http://imageads.googleadservices.com/pagead/imgclick/4SgNDn8Db.8ACOvVAlUeQA0MvYg_?pos=0" coords="1,2,367,28"/&gt;&lt;area shape="rect" href="http://services.google.com/feedback/abg" coords="384,10,453,23"/&gt;&lt;/map&gt;&lt;img usemap="#google_ad_map_4SgNDn8Db.8ACOvVAlUeQA0MvYg_" border="0" src="http://imageads.googleadservices.com/pagead/ads?format=468x30_aff_img&amp;client=ca-pub-5352009007442360&amp;output=png&amp;cuid=4SgNDn8Db.8ACOvVAlUeQA0MvYg_&amp;url=http%3A%2F%2F37signals.com%2Fsvn%2Farchives2%2Fone_last_campfire_test_before_launch.php"/&gt;&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=mN4FvBEh"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=mN4FvBEh" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=tQHfooNm"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=tQHfooNm" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>37signals</dc:subject>
+    <dc:creator>Jason</dc:creator>
+    <dc:date>2006-02-09T14:38:00-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/restaurant_flagging.php">
+    <title>Restaurant flagging</title>
+    <link>http://37signals.com/svn/archives2/restaurant_flagging.php</link>
+    <description>&lt;p&gt;&lt;img src="http://images.google.com/images?q=tbn:cOGZzqWfRo8JPM:http://images.amazon.com/images/P/B0002Q91K2.01-A2OEDDFUDDRGX._SCMZZZZZZZ_.jpg" alt="mailbox" style="margin: 0 10px 5px 0" align="left"&gt;Whenever I&amp;#8217;m having difficulty getting a waiter&amp;#8217;s attention, I wonder why I&amp;#8217;ve never seen a restaurant with some sort of mailbox flag system for alerting servers when diners need attention. Y&amp;#8217;know, put a flag on the corner of each table. Flag up = I&amp;#8217;m ready for the check, need more water, etc. Flag down = Everything&amp;#8217;s copacetic. Not terribly classy but seems like a more efficient system than the traditional waiting for a waiter dropby/eye contact chase.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=1ltBXFaH"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=1ltBXFaH" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=wmcMo9Zw"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=wmcMo9Zw" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Customer experience</dc:subject>
+    <dc:creator>Matt</dc:creator>
+    <dc:date>2006-02-08T13:29:52-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/audi_q7_behind_the_scenes.php">
+    <title>Audi Q7 behind the scenes</title>
+    <link>http://37signals.com/svn/archives2/audi_q7_behind_the_scenes.php</link>
+    <description>&lt;p&gt;An 8-page article about the &lt;a href="http://www.worldcarfans.com/news.cfm/country/gcf/newsID/2060206.015/audi/developing-the-audi-q7"&gt;development of the Audi Q7&lt;/a&gt;. Details like this blow me away:&lt;/p&gt;
+
+&lt;blockquote&gt;
+A further development priority is water management. The aim here is to minimise interference with the driver&amp;#8217;s view of the road as a result of dirt and water on the windows.
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+Dr. Jaroch illustrates this as follows: &amp;#8220;Critical situations can for example arise if the car is following a truck along a wet road, and water spray from its wheels obscures the driver&amp;#8217;s view. This can typically occur at speeds of between 70 and 90 kilometres per hour. Our aim in the case of the Audi Q7 was to optimise the airflow round the A-posts and exterior mirrors so that the side windows and mirror glass remain clean.&amp;#8221;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+How is this achieved? The vehicle is sprayed with a fluorescent liquid in a special wind tunnel devoted to surface contamination. Under black light, the paths taken by rain and spray and the areas where the water collects can be clearly seen.
+&lt;/blockquote&gt;
+
+&lt;p&gt;Great car design is fascinating. So many variables to consider. It&amp;#8217;s such a joy being in a well designed car &amp;#8212; you can feel the thought that went into it.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=noDyENQn"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=noDyENQn" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=zBtUA4HK"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=zBtUA4HK" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Observations</dc:subject>
+    <dc:creator>Jason</dc:creator>
+    <dc:date>2006-02-07T16:24:12-06:00</dc:date>
+  </item>
+  <item rdf:about="http://37signals.com/svn/archives2/celebration_is_quality_control.php">
+    <title>Celebration is quality control</title>
+    <link>http://37signals.com/svn/archives2/celebration_is_quality_control.php</link>
+    <description>&lt;p&gt;People often balk when we say that we don&amp;#8217;t user test. Of course, spotting big problems is cake when you use what you build. But what about all the details? The secret to pixel-perfect apps is simple: Celebrate every step.&lt;/p&gt;
+
+&lt;p&gt;Our team is in Campfire throughout the day (before that, we used IM). And everytime we plug a feature in, polish a screen, or nail some language, we share the joy.&lt;/p&gt;
+
+&lt;blockquote&gt;
+The New Room screen is in.&lt;br /&gt;
+Upload Status works!&lt;br /&gt;
+Keyword search! Whoo!!
+&lt;/blockquote&gt;
+
+&lt;p&gt;Inevitably, &amp;#8220;Upload Status works!&amp;#8221; turns into &amp;#8220;Maybe the image should be smaller&amp;#8221; or &amp;#8220;Let&amp;#8217;s eliminate a step.&amp;#8221; By sharing and celebrating the accomplishment, an opportunity appears to focus in on the details and make it even better. In this way, three things follow when you celebrate each step:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Morale:&lt;/strong&gt; Morale stays high because everyone sees progress.&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Feedback:&lt;/strong&gt; Builders get feedback when it counts &amp;#8212; while they&amp;#8217;re still in the zone and before they get too attached to their implementation.&lt;/li&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Quality:&lt;/strong&gt; Every brick in the wall is checked for fit by at least a couple peers.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So stop saving the bubbly for launch and pour some at every step.&lt;/p&gt;
+&lt;div class="feedflare"&gt;&lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=aNrq8hWB"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=aNrq8hWB" border="0"&gt;&lt;/img&gt;&lt;/a&gt; &lt;a href="http://feeds.feedburner.com/~f/37signals/beMH?a=zo2DIWfD"&gt;&lt;img src="http://feeds.feedburner.com/~f/37signals/beMH?i=zo2DIWfD" border="0"&gt;&lt;/img&gt;&lt;/a&gt;&lt;/div&gt;</description>
+    <dc:subject>Getting Real</dc:subject>
+    <dc:creator>Ryan</dc:creator>
+    <dc:date>2006-02-07T16:12:39-06:00</dc:date>
+  </item>
+</rdf:RDF>
+

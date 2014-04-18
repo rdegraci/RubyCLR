@@ -1,0 +1,529 @@
+﻿<FlowDocument xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+ xmlns:eq="clr-namespace:Valil.MathEquations;assembly=Valil.MathEquations"
+ FontFamily="Palatino Linotype" FontSize="16"
+ >
+  <Section>
+    <Paragraph>
+      <Underline>Fundamental Theorems of Calculus</Underline>
+    </Paragraph>
+    <Paragraph>
+      The first fundamental theorem of calculus states that,
+      if <Italic>f</Italic> is continuous on the closed interval
+      [<Italic>a</Italic>,<Italic>b</Italic>]
+      and <Italic>F</Italic> is the antiderivative (indefinite integral) of
+      <Italic>f</Italic> on [<Italic>a</Italic>,<Italic>b</Italic>], then
+      <eq:RowPanel>
+        <eq:SubSupPanel>
+          <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="36" Margin="1" IsSymbol="True">&#x222b;</eq:MathTextBlock>
+          <eq:MathTextBlock FontSize="12" Margin="1" FontStyle="Italic">a</eq:MathTextBlock>
+          <eq:MathTextBlock FontSize="12" Margin="1" FontStyle="Italic">b</eq:MathTextBlock>
+          <eq:MathTextBlock Margin="1" FontStyle="Italic">f(x) dx</eq:MathTextBlock>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1">F(b) &#x2212; F(a)</eq:MathTextBlock>
+      </eq:RowPanel>
+      .
+    </Paragraph>
+    <Paragraph>
+      The second fundamental theorem of calculus holds for <Italic>f</Italic>
+      continuous on an open interval <Italic>I</Italic> and <Italic>a</Italic> any point in <Italic>I</Italic>,
+      and states that if <Italic>F</Italic> is defined by
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1">F(x)</eq:MathTextBlock>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:SubSupPanel>
+          <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="36" Margin="1" IsSymbol="True">&#x222b;</eq:MathTextBlock>
+          <eq:MathTextBlock FontSize="12" Margin="1" FontStyle="Italic">a</eq:MathTextBlock>
+          <eq:MathTextBlock FontSize="12" Margin="1" FontStyle="Italic">x</eq:MathTextBlock>
+          <eq:MathTextBlock Margin="1" FontStyle="Italic">f(t) dt</eq:MathTextBlock>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+      </eq:RowPanel>
+      then
+      <Italic>F'(x) = f(x)</Italic>
+      at each point in <Italic>I</Italic>.
+    </Paragraph>
+  </Section>
+
+  <Section>
+    <Paragraph>
+      <Underline>Pinching Theorem</Underline>
+    </Paragraph>
+    <Paragraph>
+      Let <Italic>g(x)</Italic> &#x2264; <Italic>f(x)</Italic> &#x2264; <Italic>h(x)</Italic> for all <Italic>x</Italic>
+      in some open interval containing <Italic>a</Italic>.
+      If
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+        <eq:UnderOverPanel>
+          <eq:MathTextBlock FontStyle="Italic"  Margin="1">lim</eq:MathTextBlock>
+          <eq:RowPanel>
+            <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">x</eq:MathTextBlock>
+            <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="12" Margin="1" IsSymbol="True">&#x2192;</eq:MathTextBlock>
+            <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">a</eq:MathTextBlock>
+          </eq:RowPanel>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">g(x)</eq:MathTextBlock>
+        </eq:UnderOverPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:UnderOverPanel>
+          <eq:MathTextBlock FontStyle="Italic"  Margin="1">lim</eq:MathTextBlock>
+          <eq:RowPanel>
+            <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">x</eq:MathTextBlock>
+            <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="12" Margin="1" IsSymbol="True">&#x2192;</eq:MathTextBlock>
+            <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">a</eq:MathTextBlock>
+          </eq:RowPanel>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">h(x)</eq:MathTextBlock>
+        </eq:UnderOverPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1">L</eq:MathTextBlock>
+      </eq:RowPanel>
+      ,
+      then
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+        <eq:UnderOverPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">lim</eq:MathTextBlock>
+          <eq:RowPanel>
+            <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">x</eq:MathTextBlock>
+            <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="12" Margin="1" IsSymbol="True">&#x2192;</eq:MathTextBlock>
+            <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">a</eq:MathTextBlock>
+          </eq:RowPanel>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">f(x)</eq:MathTextBlock>
+        </eq:UnderOverPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1">L</eq:MathTextBlock>
+      </eq:RowPanel>
+      .
+    </Paragraph>
+  </Section>
+
+  <Section>
+    <Paragraph>
+      <Underline>Absolute value</Underline>
+    </Paragraph>
+    <Paragraph>
+      The absolute value of a real number <Italic>x</Italic> is denoted <Italic>|x|</Italic> and defined as the "unsigned" portion of <Italic>x</Italic>,
+      <LineBreak/>
+      <eq:RowPanel>
+        <eq:MathTextBlock Margin="1" FontStyle="Italic">|x|</eq:MathTextBlock>
+        <eq:MathTextBlock Margin="1" FontStyle="Italic" xml:space="preserve" IsSymbol="True"> =  </eq:MathTextBlock>
+        <eq:HorizontalFencedPanel>
+          <eq:MathTextBlock IsSymbol="True">{</eq:MathTextBlock>
+          <eq:ColumnPanel>
+            <eq:RowPanel HorizontalAlignment="Left" Margin="0,3">
+              <eq:MathTextBlock Margin="1" FontStyle="Italic">&#x2212;x, x &lt; 0</eq:MathTextBlock>
+            </eq:RowPanel>
+            <eq:RowPanel HorizontalAlignment="Left" Margin="0,3">
+              <eq:MathTextBlock Margin="1" FontStyle="Italic">0, x = 0</eq:MathTextBlock>
+            </eq:RowPanel>
+            <eq:RowPanel HorizontalAlignment="Left" Margin="0,3">
+              <eq:MathTextBlock Margin="1" FontStyle="Italic">x, x &gt; 0</eq:MathTextBlock>
+            </eq:RowPanel>
+          </eq:ColumnPanel>
+          <eq:EmptyElement/>
+        </eq:HorizontalFencedPanel>
+      </eq:RowPanel>
+    </Paragraph>
+  </Section>
+
+  <Section>
+    <Paragraph>
+      <Underline>Quadratic Equation</Underline>
+    </Paragraph>
+    <Paragraph>
+      A quadratic equation is a second-order polynomial equation in a single variable <Italic>x</Italic>
+      <LineBreak/>
+      <Italic>
+        ax<Span Typography.Variants="Superscript">2</Span> + bx + c = 0
+      </Italic>
+      <LineBreak/>
+      with <Italic>a &#x2260; 0</Italic>.
+      Because it is a second-order polynomial equation, the fundamental theorem of algebra guarantees that it has two solutions. These solutions may be both real or both complex.<LineBreak/>
+      The roots  can be found by completing the square,
+      <LineBreak/>
+      <eq:RowPanel>
+        <eq:SubSupPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">x</eq:MathTextBlock>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+          <eq:EmptyElement/>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1" xml:space="preserve"> + </eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+        </eq:FractionPanel>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1">x</eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1" IsSymbol="True" xml:space="preserve"> = </eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1" IsSymbol="True">&#x2212;</eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">c</eq:MathTextBlock>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+        </eq:FractionPanel>
+      </eq:RowPanel>
+      <LineBreak/>
+      <eq:RowPanel>
+        <eq:SubSupPanel>
+          <eq:HorizontalFencedPanel>
+            <eq:MathTextBlock IsSymbol="True">(</eq:MathTextBlock>
+            <eq:RowPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1" xml:space="preserve">x + </eq:MathTextBlock>
+              <eq:FractionPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+                <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">2a</eq:MathTextBlock>
+              </eq:FractionPanel>
+            </eq:RowPanel>
+            <eq:MathTextBlock IsSymbol="True">)</eq:MathTextBlock>
+          </eq:HorizontalFencedPanel>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+          <eq:EmptyElement/>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1" IsSymbol="True" xml:space="preserve">= </eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1" IsSymbol="True">&#x2212;</eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">c</eq:MathTextBlock>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+        </eq:FractionPanel>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1" xml:space="preserve"> + </eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:SubSupPanel>
+            <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+            <eq:EmptyElement/>
+            <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+            <eq:EmptyElement/>
+          </eq:SubSupPanel>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:RowPanel>
+            <eq:MathTextBlock FontStyle="Italic" Margin="1">4</eq:MathTextBlock>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+          </eq:RowPanel>
+        </eq:FractionPanel>
+      </eq:RowPanel>
+      <LineBreak/>
+      <eq:RowPanel>
+        <eq:SubSupPanel>
+          <eq:HorizontalFencedPanel>
+            <eq:MathTextBlock IsSymbol="True">(</eq:MathTextBlock>
+            <eq:RowPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1" xml:space="preserve">x + </eq:MathTextBlock>
+              <eq:FractionPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+                <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">2a</eq:MathTextBlock>
+              </eq:FractionPanel>
+            </eq:RowPanel>
+            <eq:MathTextBlock IsSymbol="True">)</eq:MathTextBlock>
+          </eq:HorizontalFencedPanel>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+          <eq:EmptyElement/>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1" xml:space="preserve" IsSymbol="True">= </eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:RowPanel>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+            <eq:MathTextBlock FontStyle="Italic" Margin="1">&#x2212; 4ac</eq:MathTextBlock>
+          </eq:RowPanel>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:RowPanel>
+            <eq:MathTextBlock FontStyle="Italic" Margin="1">4</eq:MathTextBlock>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+          </eq:RowPanel>
+        </eq:FractionPanel>
+      </eq:RowPanel>
+      <LineBreak/>
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1">x + </eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">2a</eq:MathTextBlock>
+        </eq:FractionPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:RowPanel>
+            <eq:MathTextBlock FontStyle="Italic" Margin="1">&#x00b1;</eq:MathTextBlock>
+            <eq:RadicalPanel>
+              <eq:EmptyElement Margin="1"/>
+              <Polyline Points="0,0 0,0 0,0 0,0 0,0" Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"/>
+              <eq:RowPanel>
+                <eq:SubSupPanel>
+                  <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+                  <eq:EmptyElement/>
+                  <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+                  <eq:EmptyElement/>
+                </eq:SubSupPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">&#x2212; 4ac</eq:MathTextBlock>
+              </eq:RowPanel>
+            </eq:RadicalPanel>
+          </eq:RowPanel>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">2a</eq:MathTextBlock>
+        </eq:FractionPanel>
+      </eq:RowPanel>
+      <LineBreak/>
+      Solving for <Italic>x</Italic> then gives
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+        <eq:MathTextBlock FontStyle="Italic" Margin="1">x</eq:MathTextBlock>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:FractionPanel>
+          <eq:RowPanel>
+            <eq:MathTextBlock FontStyle="Italic" Margin="1">&#x2212;b &#x00b1;</eq:MathTextBlock>
+            <eq:RadicalPanel>
+              <eq:EmptyElement Margin="1"/>
+              <Polyline Points="0,0 0,0 0,0 0,0 0,0" Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round" StrokeLineJoin="Round"/>
+              <eq:RowPanel>
+                <eq:SubSupPanel>
+                  <eq:MathTextBlock FontStyle="Italic" Margin="1">b</eq:MathTextBlock>
+                  <eq:EmptyElement/>
+                  <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">2</eq:MathTextBlock>
+                  <eq:EmptyElement/>
+                </eq:SubSupPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">&#x2212; 4ac</eq:MathTextBlock>
+              </eq:RowPanel>
+            </eq:RadicalPanel>
+          </eq:RowPanel>
+          <Line Stroke="Black" StrokeThickness="2" StrokeEndLineCap="Round" StrokeStartLineCap="Round"/>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">2a</eq:MathTextBlock>
+        </eq:FractionPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1"> </eq:MathTextBlock>
+      </eq:RowPanel>
+      .
+      This equation is known as the quadratic formula.
+    </Paragraph>
+  </Section>
+
+  <Section>
+    <Paragraph>
+      <Underline>Binomial Theorem</Underline>
+    </Paragraph>
+    <Paragraph>
+      The binomial theorem states that for positive integers <Italic>n</Italic>,
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1"> </eq:MathTextBlock>
+        <eq:SubSupPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">(x + a)</eq:MathTextBlock>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">n</eq:MathTextBlock>
+          <eq:EmptyElement/>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True">=</eq:MathTextBlock>
+        <eq:UnderOverPanel >
+          <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="36" Margin="1" IsSymbol="True">&#x2211;</eq:MathTextBlock>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">k = 0</eq:MathTextBlock>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">n</eq:MathTextBlock>
+          <eq:RowPanel>
+            <eq:HorizontalFencedPanel>
+              <eq:MathTextBlock IsSymbol="True">(</eq:MathTextBlock>
+              <eq:ColumnPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="3,1,3,3" HorizontalAlignment="Center">n</eq:MathTextBlock>
+                <eq:MathTextBlock FontStyle="Italic" Margin="3,3,3,1" HorizontalAlignment="Center">k</eq:MathTextBlock>
+              </eq:ColumnPanel>
+              <eq:MathTextBlock IsSymbol="True">)</eq:MathTextBlock>
+            </eq:HorizontalFencedPanel>
+            <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">x</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">k</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+            <eq:MathTextBlock xml:space="preserve" Margin="1"> </eq:MathTextBlock>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">n &#x2212; k</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+          </eq:RowPanel>
+        </eq:UnderOverPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1"> </eq:MathTextBlock>
+      </eq:RowPanel>
+      ,
+      where
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+        <eq:HorizontalFencedPanel>
+          <eq:MathTextBlock IsSymbol="True">(</eq:MathTextBlock>
+          <eq:ColumnPanel>
+            <eq:MathTextBlock FontStyle="Italic" Margin="3,1,3,3" HorizontalAlignment="Center">n</eq:MathTextBlock>
+            <eq:MathTextBlock FontStyle="Italic" Margin="3,3,3,1" HorizontalAlignment="Center">k</eq:MathTextBlock>
+          </eq:ColumnPanel>
+          <eq:MathTextBlock IsSymbol="True">)</eq:MathTextBlock>
+        </eq:HorizontalFencedPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+      </eq:RowPanel>
+      are binomial coefficients.<LineBreak/>
+
+      Newton showed that a similar formula (with infinite upper limit) holds for negative integers <Italic>&#x2212;n</Italic>,
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+        <eq:SubSupPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">(x + a)</eq:MathTextBlock>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">&#x2212;n</eq:MathTextBlock>
+          <eq:EmptyElement/>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True">=</eq:MathTextBlock>
+        <eq:UnderOverPanel >
+          <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="36" Margin="1" IsSymbol="True">&#x2211;</eq:MathTextBlock>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">k = 0</eq:MathTextBlock>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">&#x221e;</eq:MathTextBlock>
+          <eq:RowPanel>
+            <eq:HorizontalFencedPanel>
+              <eq:MathTextBlock IsSymbol="True">(</eq:MathTextBlock>
+              <eq:ColumnPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="3,1,3,3" HorizontalAlignment="Center">&#x2212;n</eq:MathTextBlock>
+                <eq:MathTextBlock FontStyle="Italic" Margin="3,3,3,1" HorizontalAlignment="Center">k</eq:MathTextBlock>
+              </eq:ColumnPanel>
+              <eq:MathTextBlock IsSymbol="True">)</eq:MathTextBlock>
+            </eq:HorizontalFencedPanel>
+            <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">x</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">k</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+            <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">&#x2212;n &#x2212; k</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+          </eq:RowPanel>
+        </eq:UnderOverPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+      </eq:RowPanel>,
+      the so-called negative binomial series, which converges for <Italic>|x| &lt; a</Italic>
+      .<LineBreak/>
+
+      In fact, the generalization
+      <eq:RowPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+        <eq:SubSupPanel>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">(1 + z)</eq:MathTextBlock>
+          <eq:EmptyElement/>
+          <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">a</eq:MathTextBlock>
+          <eq:EmptyElement/>
+        </eq:SubSupPanel>
+        <eq:MathTextBlock xml:space="preserve" FontStyle="Italic" Margin="1" IsSymbol="True">=</eq:MathTextBlock>
+        <eq:UnderOverPanel >
+          <eq:MathTextBlock FontFamily="Lucida Sans Unicode" FontSize="36" Margin="1" IsSymbol="True">&#x2211;</eq:MathTextBlock>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">k = 0</eq:MathTextBlock>
+          <eq:MathTextBlock FontStyle="Italic" Margin="1">&#x221e;</eq:MathTextBlock>
+          <eq:RowPanel>
+            <eq:HorizontalFencedPanel>
+              <eq:MathTextBlock IsSymbol="True">(</eq:MathTextBlock>
+              <eq:ColumnPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="3,1,3,3" HorizontalAlignment="Center">a</eq:MathTextBlock>
+                <eq:MathTextBlock FontStyle="Italic" Margin="3,3,3,1" HorizontalAlignment="Center">k</eq:MathTextBlock>
+              </eq:ColumnPanel>
+              <eq:MathTextBlock IsSymbol="True">)</eq:MathTextBlock>
+            </eq:HorizontalFencedPanel>
+            <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+            <eq:SubSupPanel>
+              <eq:MathTextBlock FontStyle="Italic" Margin="1">z</eq:MathTextBlock>
+              <eq:EmptyElement/>
+              <eq:MathTextBlock FontSize="12" FontStyle="Italic" Margin="1">k</eq:MathTextBlock>
+              <eq:EmptyElement/>
+            </eq:SubSupPanel>
+          </eq:RowPanel>
+        </eq:UnderOverPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+      </eq:RowPanel>
+      holds for all complex <Italic>a</Italic> and <Italic>|z| &lt; 1</Italic>.
+    </Paragraph>
+  </Section>
+
+  <Section>
+    <Paragraph>
+      <Underline>Rotation matrix</Underline>
+    </Paragraph>
+    <Paragraph>
+      <eq:RowPanel>
+        <eq:MathTextBlock Margin="1" FontStyle="Italic">R</eq:MathTextBlock>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" FontStyle="Italic" IsSymbol="True"> = </eq:MathTextBlock>
+        <eq:HorizontalFencedPanel>
+          <eq:MathTextBlock IsSymbol="True">(</eq:MathTextBlock>
+          <eq:MatrixPanel Columns="4" Rows="4">
+            <eq:RowPanel>
+              <eq:SubSupPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">tx</eq:MathTextBlock>
+                <eq:EmptyElement/>
+                <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">2</eq:MathTextBlock>
+                <eq:EmptyElement/>
+              </eq:SubSupPanel>
+              <eq:MathTextBlock Margin="1" FontStyle="Italic">+ c</eq:MathTextBlock>
+            </eq:RowPanel>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">txy &#x2212; sz</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">txz + sy</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">0</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">txy + sz</eq:MathTextBlock>
+            <eq:RowPanel>
+              <eq:SubSupPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">ty</eq:MathTextBlock>
+                <eq:EmptyElement/>
+                <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">2</eq:MathTextBlock>
+                <eq:EmptyElement/>
+              </eq:SubSupPanel>
+              <eq:MathTextBlock Margin="1" FontStyle="Italic">+ c</eq:MathTextBlock>
+            </eq:RowPanel>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">tyz &#x2212; sx</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">0</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">txz &#x2212; sy</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">tyz + sx</eq:MathTextBlock>
+            <eq:RowPanel>
+              <eq:SubSupPanel>
+                <eq:MathTextBlock FontStyle="Italic" Margin="1">tz</eq:MathTextBlock>
+                <eq:EmptyElement/>
+                <eq:MathTextBlock FontStyle="Italic" FontSize="12" Margin="1">2</eq:MathTextBlock>
+                <eq:EmptyElement/>
+              </eq:SubSupPanel>
+              <eq:MathTextBlock Margin="1" FontStyle="Italic">+ c</eq:MathTextBlock>
+            </eq:RowPanel>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">0</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">0</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">0</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">0</eq:MathTextBlock>
+            <eq:MathTextBlock Margin="1" FontStyle="Italic">1</eq:MathTextBlock>
+          </eq:MatrixPanel>
+          <eq:MathTextBlock IsSymbol="True">)</eq:MathTextBlock>
+        </eq:HorizontalFencedPanel>
+        <eq:MathTextBlock xml:space="preserve" Margin="1" IsSymbol="True"> </eq:MathTextBlock>
+      </eq:RowPanel>,
+      <LineBreak/>
+      where
+      <Italic>c = cos &#x03b8;</Italic>,
+      <Italic>s = sin &#x03b8;</Italic>,
+      <Italic>t = 1 - cos &#x03b8;</Italic>,
+      and (<Italic>x</Italic>,<Italic>y</Italic>,<Italic>z</Italic>) is a unit vector on the axis of rotation.
+    </Paragraph>
+  </Section>
+</FlowDocument>

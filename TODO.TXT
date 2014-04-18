@@ -1,0 +1,18 @@
+= RubyCLR Project -- To Do List
+
+Send suggestions for this list to mailto:jlam@iunknown.com.
+
+=== To Do
+
+* Add support for release mode builds in Rakefile
+* Add support for release generation (build + .zip file creation) to Rakefile
+* Add support for generic interfaces (that works - this is a bug right now)
+* Rewrite the method overloading implementation to be more efficient, as well as
+  supporting overloading of generic parameter types
+* Provide a mechanism to bypass method overloading and assign an alias to a
+  specific .NET method based on signature. This will improve runtime
+  performance in certain scenarios.
+* Implement a stress test that forces garbage collection to run in both
+  runtimes, and look for slow memory leaks.
+* Revisit inheritance in Ruby shadow classes. Implementation is commented out in
+  this drop due to difficulties in handling all scenarios.

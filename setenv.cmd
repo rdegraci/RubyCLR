@@ -1,0 +1,1 @@
+SET RUBYLIB=C:/Dev/rubyclr/trunk/Build;C:/Dev/rubyclr/trunk/Src/Ruby
